@@ -1,0 +1,130 @@
+{
+    "_custom_": true, 
+    "_ref_": 201385996, 
+    "affect_all": true, 
+    "affect_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "cells": {
+        "__tuple__": true, 
+        "items": [
+            [
+                1, 
+                {
+                    "attr_list": [
+                        [
+                            "hit_rate", 
+                            5
+                        ]
+                    ], 
+                    "buy_res_list": [
+                        [
+                            "official_res_1", 
+                            100
+                        ]
+                    ], 
+                    "icon": 100080, 
+                    "level": 1, 
+                    "name": "1\u00e7\u00ba\u00a7\u00e7\u00a7\u0091\u00e6\u008a\u0080", 
+                    "precondition_list": []
+                }
+            ], 
+            [
+                2, 
+                {
+                    "attr_list": [
+                        [
+                            "hit_rate", 
+                            10
+                        ]
+                    ], 
+                    "buy_res_list": [
+                        [
+                            "official_res_1", 
+                            200
+                        ]
+                    ], 
+                    "icon": 100080, 
+                    "level": 2, 
+                    "name": "2\u00e7\u00ba\u00a7\u00e7\u00a7\u0091\u00e6\u008a\u0080", 
+                    "precondition_list": []
+                }
+            ], 
+            [
+                3, 
+                {
+                    "attr_list": [
+                        [
+                            "hit_rate", 
+                            15
+                        ]
+                    ], 
+                    "buy_res_list": [
+                        [
+                            "official_res_1", 
+                            300
+                        ]
+                    ], 
+                    "icon": 100080, 
+                    "level": 3, 
+                    "name": "3\u00e7\u00ba\u00a7\u00e7\u00a7\u0091\u00e6\u008a\u0080", 
+                    "precondition_list": []
+                }
+            ], 
+            [
+                4, 
+                {
+                    "attr_list": [
+                        [
+                            "hit_rate", 
+                            20
+                        ]
+                    ], 
+                    "buy_res_list": [
+                        [
+                            "official_res_1", 
+                            400
+                        ]
+                    ], 
+                    "icon": 100080, 
+                    "level": 4, 
+                    "name": "4\u00e7\u00ba\u00a7\u00e7\u00a7\u0091\u00e6\u008a\u0080", 
+                    "precondition_list": []
+                }
+            ], 
+            [
+                5, 
+                {
+                    "attr_list": [
+                        [
+                            "hit_rate", 
+                            25
+                        ]
+                    ], 
+                    "buy_res_list": [
+                        [
+                            "official_res_1", 
+                            500
+                        ]
+                    ], 
+                    "icon": 100080, 
+                    "level": 5, 
+                    "name": "5\u00e7\u00ba\u00a7\u00e7\u00a7\u0091\u00e6\u008a\u0080", 
+                    "precondition_list": []
+                }
+            ]
+        ]
+    }, 
+    "description": -2114753252, 
+    "key": 201385996, 
+    "kv": {}, 
+    "max_lv": 5, 
+    "name": -1629137870, 
+    "suffix": "", 
+    "tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "uid": "201385996"
+}

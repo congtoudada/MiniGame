@@ -1,0 +1,599 @@
+{
+    "action": [
+        {
+            "action_type": "TRAVERSE_TABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleShow"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_VISIBLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "player", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [], 
+                                    "sub_type": "ITER_UI_COMP_TABLE_VAR"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 568463368000008, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 568463368000004, 
+            "enable": true
+        }, 
+        {
+            "action_type": "TRAVERSE_TABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "UI_Manager"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "SelectDestructibleHide"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_1D"
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_VISIBLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "player", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [], 
+                                    "sub_type": "ITER_UI_COMP_TABLE_VAR"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 568463368000016, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 568463368000011, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_MODEL_ID", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "player", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "7151da56-6a95-4153-8f03-f4c00ffc011c"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100122, 
+                    "args_list": [
+                        {
+                            "arg_type": 100205, 
+                            "args_list": [
+                                [
+                                    "DESTRUCTIBLE_ENTITY", 
+                                    "destructible", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "DEST_MODEL"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 568463368000029, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_COMP_TEXT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "player", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "f9a0be1b-64e5-4dc4-ab7e-549c64a13fa1"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100205, 
+                            "args_list": [
+                                [
+                                    "DESTRUCTIBLE_ENTITY", 
+                                    "destructible", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "GET_DEST_DESC"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 671428624000036, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_COMP_TEXT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "player", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "630af8fa-b70d-49a3-accd-f307f4a15e4c"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100205, 
+                            "args_list": [
+                                [
+                                    "DESTRUCTIBLE_ENTITY", 
+                                    "destructible", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "GET_DEST_NAME"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2079805465000220, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_COMP_TEXT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "player", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "0fbdba21-967e-4435-a943-84382567578c"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100205, 
+                            "args_list": [
+                                [
+                                    "DESTRUCTIBLE_ENTITY", 
+                                    "destructible", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "GET_DEST_NAME"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2079805465000222, 
+            "enable": true
+        }, 
+        503767069
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "Refresh UI when {player} selects {destructible}", 
+    "func_id": "adab886eb29311eda1bc00fff84eb1b1", 
+    "func_name": "Select Destructible", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "destructible", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "player", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "KF0OsLKSEe2XPAD-+E6xse", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "sub_trigger": {
+        "503767069": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "player", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "f9e8128b-a83e-4b96-a9de-e369f75bc2d7"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 503767069000004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "UNREG_TRIGGER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100178, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "DYNAMIC_TRIGGER_INSTANCE", 
+                                        "t1", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 503767069000005, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "UNREG_TRIGGER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100178, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "DYNAMIC_TRIGGER_INSTANCE", 
+                                        "t2", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 503767069000006, 
+                    "enable": false
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100205, 
+                            "args_list": [], 
+                            "sub_type": "DEST_IN_EVENT"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100205, 
+                            "args_list": [
+                                [
+                                    "DESTRUCTIBLE_ENTITY", 
+                                    "destructible", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "condition_type": "DESTRUCTIBLE_COMPARE", 
+                    "element_id": 503767069000014, 
+                    "enable": true
+                }
+            ], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100205, 
+                            "args_list": [
+                                [
+                                    "DESTRUCTIBLE_ENTITY", 
+                                    "destructible", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100206, 
+                            "args_list": [
+                                "ET_DEST_DIE_NEW"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 503767069000010, 
+                    "enable": true, 
+                    "event_type": "SPECIAL_DEST_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100205, 
+                            "args_list": [
+                                [
+                                    "DESTRUCTIBLE_ENTITY", 
+                                    "destructible", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100206, 
+                            "args_list": [
+                                "ET_DEST_COLLECTED_NEW"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 503767069000016, 
+                    "enable": true, 
+                    "event_type": "SPECIAL_DEST_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 1393229841, 
+            "sub_trigger_owner_set_var_action": {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100178, 
+                        "args_list": [
+                            [
+                                "DYNAMIC_TRIGGER_INSTANCE", 
+                                "t1", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100178, 
+                        "args_list": [
+                            {
+                                "arg_type": 100019, 
+                                "args_list": [
+                                    503767069
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "REG_TRIGGER"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 671428624000044, 
+                "enable": true
+            }, 
+            "trigger_id": 503767069, 
+            "trigger_name": "t1_2", 
+            "valid": true, 
+            "var_data": [
+                {
+                    "ITEM_ENTITY": {}, 
+                    "PLAYER": {}
+                }, 
+                {}, 
+                []
+            ]
+        }
+    }, 
+    "trigger_id": 1393229841, 
+    "trigger_name": "Select Destructible", 
+    "valid": true, 
+    "var_data": [
+        {
+            "DESTRUCTIBLE_ENTITY": {
+                "destructible": 0
+            }, 
+            "DYNAMIC_TRIGGER_INSTANCE": {
+                "t1": 0, 
+                "t2": 0
+            }, 
+            "ITEM_ENTITY": {
+                "item": 0
+            }, 
+            "PLAYER": {
+                "player": 0
+            }, 
+            "UNIT_ENTITY": {
+                "unit": 0
+            }
+        }, 
+        {
+            "destructible": 0, 
+            "item": 0, 
+            "player": 0, 
+            "t1": 0, 
+            "t2": 0, 
+            "unit": 0
+        }, 
+        [
+            "destructible", 
+            "item", 
+            "player", 
+            "t1", 
+            "t2", 
+            "unit"
+        ]
+    ]
+}

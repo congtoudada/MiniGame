@@ -1,0 +1,32 @@
+{
+    "_custom_": true, 
+    "_ref_": 134278555, 
+    "description": -2103380165, 
+    "fade_in_time": 0, 
+    "fade_out_time": 0, 
+    "group": 2, 
+    "icon": 100000, 
+    "key": 134278555, 
+    "kv": {}, 
+    "max_dist": 3000.0, 
+    "min_dist": 300.0, 
+    "name": 1836971833, 
+    "priority": 50, 
+    "sound_id": 103704, 
+    "sound_id_list": [
+        {
+            "sound_id": 124672, 
+            "volume": 100
+        }
+    ], 
+    "speed": 1, 
+    "suffix": "", 
+    "tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "total_time": 0.417361111111, 
+    "type": 1, 
+    "uid": "134278555", 
+    "volume": 100
+}

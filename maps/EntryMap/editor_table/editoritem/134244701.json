@@ -1,0 +1,623 @@
+{
+    "_custom_": true, 
+    "_ref_": 134244701, 
+    "attached_ability": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "attached_agility": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_attack_interval": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_attack_mag": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_attack_phy": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0.0, 
+            30.0, 
+            0.0, 
+            0.0
+        ]
+    }, 
+    "attached_attack_range": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_attack_speed": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_cd_reduce": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_critical_chance": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_critical_dmg": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_defense_mag": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_defense_phy": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_dmg_reduction": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_dodge_rate": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_extra_dmg": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_healing_effect": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_hit_rate": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_hp_max": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_hp_rec": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_hp_rec_percent": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_intelligence": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_mp_max": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_mp_rec": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_ori_speed": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_passive_abilities": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "attached_pene_mag": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_pene_mag_ratio": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_pene_phy": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_pene_phy_ratio": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_strength": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vampire_mag": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vampire_phy": {
+        "__tuple__": true, 
+        "items": [
+            0.0, 
+            0.0, 
+            15.0, 
+            0.0, 
+            0.0
+        ]
+    }, 
+    "attached_vision_night": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_rng": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_sector_angle_day": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_sector_angle_night": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_sector_night": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_sector_rng": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "attached_vision_true": {
+        "__tuple__": true, 
+        "items": [
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ]
+    }, 
+    "auto_use": false, 
+    "base_color_mod": 0, 
+    "base_tint_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255, 
+            0.5
+        ]
+    }, 
+    "body_size": 0.4, 
+    "buy_res_list": {
+        "__tuple__": true, 
+        "items": [
+            [
+                "official_res_1", 
+                650
+            ]
+        ]
+    }, 
+    "cd_type": "", 
+    "compose_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "cur_charge": 0, 
+    "cur_stack": 1, 
+    "delete_on_discard": false, 
+    "description": -1762829128, 
+    "disable_overlapping": false, 
+    "discard_enable": true, 
+    "discard_when_dead": false, 
+    "drop_stay_time": 9999, 
+    "effect_list": {}, 
+    "fresnel_color": [
+        255, 
+        0, 
+        0, 
+        1
+    ], 
+    "fresnel_emissive_color_strength": 0, 
+    "fresnel_exp": 1, 
+    "hp_max": 1.0, 
+    "icon": 106522, 
+    "init_stock": 5, 
+    "item_billboard_type": 1, 
+    "key": 134244701, 
+    "kv": {
+        "1\u7ea7": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "1\u7ea7", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 0, 
+            "value": "\u7269\u7406\u8679\u5438+5%"
+        }, 
+        "1\u7ea7\u4ef7\u683c": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "1\u7ea7\u4ef7\u683c", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 1, 
+            "type": 2, 
+            "value": 650
+        }, 
+        "2\u7ea7": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "2\u7ea7", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 0, 
+            "value": "\u653b\u51fb\u529b+13"
+        }, 
+        "2\u7ea7\u4ef7\u683c": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "2\u7ea7\u4ef7\u683c", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 3, 
+            "type": 2, 
+            "value": 1100
+        }, 
+        "3\u7ea7": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "3\u7ea7", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 4, 
+            "type": 0, 
+            "value": "\u653b\u51fb\u529b+17"
+        }, 
+        "3\u7ea7\u4ef7\u683c": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "3\u7ea7\u4ef7\u683c", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 5, 
+            "type": 2, 
+            "value": 1200
+        }, 
+        "4\u7ea7": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "4\u7ea7", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 6, 
+            "type": 0, 
+            "value": "\u7269\u7406\u8679\u5438+10% \u88ab\u52a8\uff1a\u666e\u901a\u653b\u51fb\u547d\u4e2d\u540e\u83b7\u5f97\u4e00\u4e2a\u666e\u653b\u4f24\u5bb310%\u7684\u62a4\u76fe\uff0c\u6301\u7eed25\u79d2\uff0c\u62a4\u76fe\u6700\u591a\u53ef\u50a8\u5b5820\uff08+15%\u6700\u5927\u6c14\u8840\u503c\uff09\u70b9\u3002"
+        }, 
+        "4\u7ea7_": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "4\u7ea7_", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 12, 
+            "type": 0, 
+            "value": "\u7269\u7406\u8679\u5438+10% \u88ab\u52a8\uff1a\u666e\u901a\u653b\u51fb\u547d\u4e2d\u540e\u83b7\u5f97\u4e00\u4e2a\u666e\u653b\u4f24\u5bb310%\u7684\u62a4\u76fe\uff0c\u6301\u7eed25\u79d2\uff0c\u62a4\u76fe\u6700\u591a\u53ef\u50a8\u5b5820|%|$\u6700\u5927\u751f\u547d|0.15|%\uff08+15%\u6700\u5927\u6c14\u8840\u503c\uff09\u70b9\u3002"
+        }, 
+        "4\u7ea7\u4ef7\u683c": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "4\u7ea7\u4ef7\u683c", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 7, 
+            "type": 2, 
+            "value": 1550
+        }, 
+        "\u5b9d\u77f3\u7c7b\u578b": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "\u5b9d\u77f3\u7c7b\u578b", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 8, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "\u5f53\u524d\u7b49\u7ea7": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "\u5f53\u524d\u7b49\u7ea7", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "sort": 9, 
+            "type": 1, 
+            "value": 1.0
+        }, 
+        "\u63a8\u8350\u5b9d\u77f3": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "\u63a8\u8350\u5b9d\u77f3", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 10, 
+            "type": 2, 
+            "value": 1
+        }, 
+        "\u6700\u9ad8\u7b49\u7ea7": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "\u6700\u9ad8\u7b49\u7ea7", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 11, 
+            "type": 2, 
+            "value": 4
+        }
+    }, 
+    "level": 1, 
+    "material_alpha": 0, 
+    "material_change": 0, 
+    "material_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255
+        ]
+    }, 
+    "material_color_intensity": 1, 
+    "max_stock": 5, 
+    "maximum_charging": 5, 
+    "maximum_stacking": 5, 
+    "model": 204059, 
+    "model_opacity": 1, 
+    "name": -696505333, 
+    "precondition_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "refresh_interval": 1, 
+    "sale_enable": true, 
+    "sell_res_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "stack_type": 0, 
+    "start_rft": 1, 
+    "suffix": "", 
+    "tags": {
+        "__tuple__": true, 
+        "items": [
+            "\u7269\u653b", 
+            "\u7269\u5438", 
+            "\u653b\u51fb"
+        ]
+    }, 
+    "uid": "134244701", 
+    "use_base_tint_color": false, 
+    "use_consume": 1, 
+    "use_fresnel": false, 
+    "use_virtual_light": false
+}

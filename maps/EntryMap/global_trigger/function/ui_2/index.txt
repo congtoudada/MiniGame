@@ -1,0 +1,16 @@
+{
+    "Bind Unit's Ability Button.json": 5, 
+    "Bind Unit's Inventory.json": 6, 
+    "Display Notice.json": 13, 
+    "Mover Tooltip to Mouse Coordinates.json": 8, 
+    "Open Shop.json": 10, 
+    "Refresh Shop Tab.json": 11, 
+    "Refresh Titles of Shop Tabs.json": 12, 
+    "Refresh Tooltip.json": 9, 
+    "Refresh Unit Attribute.json": 4, 
+    "Select Destructible.json": 3, 
+    "Select Item.json": 2, 
+    "Select Unit Group.json": 1, 
+    "Select Unit.json": 0, 
+    "Set Primary Unit.json": 7
+}

@@ -1,0 +1,367 @@
+{
+    "_custom_": true, 
+    "_ref_": 134272840, 
+    "ability_break_cast_range": {
+        "__tuple__": true, 
+        "items": [
+            "50.0"
+        ]
+    }, 
+    "ability_build_subtype": 1, 
+    "ability_bw_point": 0.0, 
+    "ability_cast_point": 0.2, 
+    "ability_cast_range": {
+        "__tuple__": true, 
+        "items": [
+            "6.25"
+        ]
+    }, 
+    "ability_cast_type": 2, 
+    "ability_channel_time": 0.0, 
+    "ability_cost": {
+        "__tuple__": true, 
+        "items": [
+            " 0"
+        ]
+    }, 
+    "ability_damage": {
+        "__tuple__": true, 
+        "items": [
+            "5"
+        ]
+    }, 
+    "ability_damage_range": {
+        "__tuple__": true, 
+        "items": [
+            "0.0"
+        ]
+    }, 
+    "ability_hp_cost": {
+        "__tuple__": true, 
+        "items": [
+            "0"
+        ]
+    }, 
+    "ability_icon": 106968, 
+    "ability_max_level": 3, 
+    "ability_max_stack_count": {
+        "__tuple__": true, 
+        "items": [
+            "0"
+        ]
+    }, 
+    "ability_prepare_time": 0.0, 
+    "ability_stack_cd": {
+        "__tuple__": true, 
+        "items": [
+            "0"
+        ]
+    }, 
+    "arrow_length": {
+        "__tuple__": true, 
+        "items": [
+            "5.0"
+        ]
+    }, 
+    "arrow_width": {
+        "__tuple__": true, 
+        "items": [
+            "2.0"
+        ]
+    }, 
+    "auto_pick": true, 
+    "bs_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "bs_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "build_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "build_rotate": 0, 
+    "building_attack_range_sfx": 0, 
+    "camp_priority_enemy": 0, 
+    "camp_priority_friend": 0, 
+    "camp_priority_neutral": 0, 
+    "camp_priority_self": 0, 
+    "can_autocast_when_attack_target": false, 
+    "can_bs_interrupt": true, 
+    "can_cache": true, 
+    "can_cast_interrupt": false, 
+    "can_cast_when_hp_insufficient": false, 
+    "can_cost_hp": false, 
+    "can_interrupt_others": true, 
+    "can_prepare_interrupt": false, 
+    "can_ps_interrupt": false, 
+    "circle_radius": {
+        "__tuple__": true, 
+        "items": [
+            "5.0"
+        ]
+    }, 
+    "cold_down_time": {
+        "__tuple__": true, 
+        "items": [
+            " 120-(ability_level-1)*20"
+        ]
+    }, 
+    "collection_animation": "", 
+    "collection_animation_loop": true, 
+    "collection_continuously": true, 
+    "collection_destructible_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "cost_hp_can_die": false, 
+    "cst_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "cst_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "description": -1496840429, 
+    "end_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "end_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "filter_condition_camp": 5, 
+    "filter_condition_move_channel_type": 99, 
+    "filter_condition_type": 5, 
+    "filter_item_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "filter_unit_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "forbid_unit_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "hit_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "hit_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "influenced_by_cd_reduce": true, 
+    "influenced_by_move": true, 
+    "is_autocast": false, 
+    "is_charge_ability": false, 
+    "is_immediate": false, 
+    "is_meele": false, 
+    "key": 134272840, 
+    "kv": {
+        "BuffTime": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "BuffTime", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "type": 1, 
+            "value": 3.0
+        }, 
+        "Damage": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "Damage", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "type": 24, 
+            "value": [
+                "lambda unit: Fix32(150)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(100) +Fix32(unit.ability_source.api_get_attr_other('attack_phy'))", 
+                [
+                    [
+                        "level"
+                    ], 
+                    [
+                        "ability_source", 
+                        "ATTR_OTHER", 
+                        "attack_phy"
+                    ]
+                ], 
+                "lambda unit: Fix32(150)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(100) +Fix32(unit.ability_source.api_get_attr_other('attack_phy'))", 
+                {
+                    "ability.cur_ability.ability_level": {
+                        "is_cm": false
+                    }, 
+                    "unit.ability_source.ATTR_OTHER.attack_phy": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "ability", 
+                        "cur_ability", 
+                        "ability_level"
+                    ], 
+                    [
+                        "unit", 
+                        "ability_source", 
+                        "ATTR_OTHER", 
+                        "attack_phy"
+                    ]
+                ]
+            ]
+        }, 
+        "DamageAdd": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "DamageAdd", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "type": 24, 
+            "value": [
+                "lambda unit: (Fix32(20)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(5) )*Fix32(0.01)", 
+                [
+                    [
+                        "level"
+                    ]
+                ], 
+                "lambda unit: (Fix32(20)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(5) )*Fix32(0.01)", 
+                {
+                    "ability.cur_ability.ability_level": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "ability", 
+                        "cur_ability", 
+                        "ability_level"
+                    ]
+                ]
+            ]
+        }, 
+        "shortdec": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "shortdec", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "type": 0, 
+            "value": "\u9501\u5b9a\u76ee\u6807\u654c\u4eba\uff0c\u4ee4\u5415\u8499\u5bf9\u5176\u6240\u6709\u4f24\u5bb3\u63d0\u5347\uff0c\u4e4b\u540e\u5bf9\u8303\u56f4\u5185\u6240\u6709\u654c\u519b\u9020\u6210\u7269\u7406\u4f24\u5bb3\u3002"
+        }
+    }, 
+    "magicbook_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "name": -442092915, 
+    "need_turn_to_target": true, 
+    "pick_count": 1, 
+    "player_props_cost": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "precondition_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "ps_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "ps_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "release_immediately_out_of_range": false, 
+    "required_level": {
+        "formula": {
+            "__tuple__": true, 
+            "items": [
+                "lambda unit: Fix32(unit.level)*Fix32(5)+Fix32(1)", 
+                [
+                    "level"
+                ], 
+                "lambda unit: Fix32(unit.level)*Fix32(5)+Fix32(1)", 
+                {
+                    "ability_learn.cur_ability.level": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "ability_learn", 
+                        "cur_ability", 
+                        "level"
+                    ]
+                ]
+            ]
+        }, 
+        "required_levels": {
+            "__tuple__": true, 
+            "items": [
+                6, 
+                11, 
+                16
+            ]
+        }
+    }, 
+    "sector_angle": {
+        "__tuple__": true, 
+        "items": [
+            " 0 "
+        ]
+    }, 
+    "sector_radius": {
+        "__tuple__": true, 
+        "items": [
+            "10.0"
+        ]
+    }, 
+    "show_building_attack_range": false, 
+    "sight_type": 4, 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": [
+            [
+                "ABILITY_SP_END", 
+                134220299, 
+                11
+            ]
+        ]
+    }, 
+    "sp_count_down": false, 
+    "sp_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "sp_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "suffix": "", 
+    "tags": {
+        "__tuple__": true, 
+        "items": [
+            "AOE", 
+            "\u5927\u62db"
+        ]
+    }, 
+    "target_attribute": 0, 
+    "type_priority_building": 0, 
+    "type_priority_creature": 0, 
+    "type_priority_destructible": 0, 
+    "type_priority_hero": 0, 
+    "type_priority_item": 0, 
+    "uid": "134272840"
+}

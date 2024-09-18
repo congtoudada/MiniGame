@@ -1,0 +1,150 @@
+{
+    "_custom_": true, 
+    "_ref_": 201364507, 
+    "affect_all": true, 
+    "affect_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "cells": {
+        "__tuple__": true, 
+        "items": [
+            [
+                1, 
+                {
+                    "attr_list": [
+                        [
+                            "attack_mag", 
+                            10
+                        ], 
+                        [
+                            "cd_reduce", 
+                            1
+                        ]
+                    ], 
+                    "buy_res_list": [
+                        [
+                            "official_res_1", 
+                            100
+                        ]
+                    ], 
+                    "icon": 100008, 
+                    "level": 1, 
+                    "name": "1\u00e7\u00ba\u00a7\u00e7\u00a7\u0091\u00e6\u008a\u0080", 
+                    "precondition_list": []
+                }
+            ], 
+            [
+                2, 
+                {
+                    "attr_list": [
+                        [
+                            "attack_mag", 
+                            20
+                        ], 
+                        [
+                            "cd_reduce", 
+                            2
+                        ]
+                    ], 
+                    "buy_res_list": [
+                        [
+                            "official_res_1", 
+                            200
+                        ]
+                    ], 
+                    "icon": 100008, 
+                    "level": 2, 
+                    "name": "2\u00e7\u00ba\u00a7\u00e7\u00a7\u0091\u00e6\u008a\u0080", 
+                    "precondition_list": []
+                }
+            ], 
+            [
+                3, 
+                {
+                    "attr_list": [
+                        [
+                            "attack_mag", 
+                            30
+                        ], 
+                        [
+                            "cd_reduce", 
+                            3
+                        ]
+                    ], 
+                    "buy_res_list": [
+                        [
+                            "official_res_1", 
+                            300
+                        ]
+                    ], 
+                    "icon": 100008, 
+                    "level": 3, 
+                    "name": "3\u00e7\u00ba\u00a7\u00e7\u00a7\u0091\u00e6\u008a\u0080", 
+                    "precondition_list": []
+                }
+            ], 
+            [
+                4, 
+                {
+                    "attr_list": [
+                        [
+                            "attack_mag", 
+                            40
+                        ], 
+                        [
+                            "cd_reduce", 
+                            4
+                        ]
+                    ], 
+                    "buy_res_list": [
+                        [
+                            "official_res_1", 
+                            400
+                        ]
+                    ], 
+                    "icon": 100008, 
+                    "level": 4, 
+                    "name": "4\u00e7\u00ba\u00a7\u00e7\u00a7\u0091\u00e6\u008a\u0080", 
+                    "precondition_list": []
+                }
+            ], 
+            [
+                5, 
+                {
+                    "attr_list": [
+                        [
+                            "attack_mag", 
+                            50
+                        ], 
+                        [
+                            "cd_reduce", 
+                            5
+                        ]
+                    ], 
+                    "buy_res_list": [
+                        [
+                            "official_res_1", 
+                            500
+                        ]
+                    ], 
+                    "icon": 100008, 
+                    "level": 5, 
+                    "name": "5\u00e7\u00ba\u00a7\u00e7\u00a7\u0091\u00e6\u008a\u0080", 
+                    "precondition_list": []
+                }
+            ]
+        ]
+    }, 
+    "description": 1557533420, 
+    "key": 201364507, 
+    "kv": {}, 
+    "max_lv": 5, 
+    "name": -1239302360, 
+    "suffix": "", 
+    "tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "uid": "201364507"
+}

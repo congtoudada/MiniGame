@@ -1,0 +1,431 @@
+{
+    "_custom_": true, 
+    "_ref_": 134243533, 
+    "ability_break_cast_range": {
+        "__tuple__": true, 
+        "items": [
+            "50.0"
+        ]
+    }, 
+    "ability_build_subtype": 1, 
+    "ability_bw_point": 0.5, 
+    "ability_cast_point": 0.2, 
+    "ability_cast_range": {
+        "__tuple__": true, 
+        "items": [
+            "6.75"
+        ]
+    }, 
+    "ability_cast_type": 2, 
+    "ability_channel_time": 0.0, 
+    "ability_cost": {
+        "__tuple__": true, 
+        "items": [
+            " 50+(ability_level-1)*15"
+        ]
+    }, 
+    "ability_damage": {
+        "__tuple__": true, 
+        "items": [
+            "5"
+        ]
+    }, 
+    "ability_damage_range": {
+        "__tuple__": true, 
+        "items": [
+            "0.0"
+        ]
+    }, 
+    "ability_hp_cost": {
+        "__tuple__": true, 
+        "items": [
+            "0"
+        ]
+    }, 
+    "ability_icon": 106943, 
+    "ability_max_level": 5, 
+    "ability_max_stack_count": {
+        "__tuple__": true, 
+        "items": [
+            "0"
+        ]
+    }, 
+    "ability_prepare_time": 0.0, 
+    "ability_stack_cd": {
+        "__tuple__": true, 
+        "items": [
+            "0"
+        ]
+    }, 
+    "arrow_length": {
+        "__tuple__": true, 
+        "items": [
+            "5.0"
+        ]
+    }, 
+    "arrow_width": {
+        "__tuple__": true, 
+        "items": [
+            "2.0"
+        ]
+    }, 
+    "auto_pick": true, 
+    "bs_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "bs_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "build_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "build_rotate": 0, 
+    "building_attack_range_sfx": 0, 
+    "camp_priority_enemy": 0, 
+    "camp_priority_friend": 0, 
+    "camp_priority_neutral": 0, 
+    "camp_priority_self": 0, 
+    "can_autocast_when_attack_target": false, 
+    "can_bs_interrupt": true, 
+    "can_cache": true, 
+    "can_cast_interrupt": false, 
+    "can_cast_when_hp_insufficient": false, 
+    "can_cost_hp": false, 
+    "can_interrupt_others": true, 
+    "can_prepare_interrupt": false, 
+    "can_ps_interrupt": false, 
+    "circle_radius": {
+        "__tuple__": true, 
+        "items": [
+            "5.0"
+        ]
+    }, 
+    "cold_down_time": {
+        "__tuple__": true, 
+        "items": [
+            " 10"
+        ]
+    }, 
+    "collection_animation": "", 
+    "collection_animation_loop": true, 
+    "collection_continuously": true, 
+    "collection_destructible_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "cost_hp_can_die": false, 
+    "cst_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "cst_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "description": -476860712, 
+    "end_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "end_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "filter_condition_camp": 15, 
+    "filter_condition_move_channel_type": 99, 
+    "filter_condition_type": 5, 
+    "filter_item_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "filter_unit_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "forbid_unit_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "hit_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "hit_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "influenced_by_cd_reduce": true, 
+    "influenced_by_move": true, 
+    "is_autocast": false, 
+    "is_charge_ability": false, 
+    "is_immediate": false, 
+    "is_meele": false, 
+    "key": 134243533, 
+    "kv": {
+        "AttackDown": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "AttackDown", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "type": 24, 
+            "value": [
+                "lambda unit: (Fix32(6)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(3))", 
+                [
+                    [
+                        "level"
+                    ]
+                ], 
+                "lambda unit: (Fix32(6)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(3))", 
+                {
+                    "ability.cur_ability.ability_level": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "ability", 
+                        "cur_ability", 
+                        "ability_level"
+                    ]
+                ]
+            ]
+        }, 
+        "Damage": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "Damage", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "type": 24, 
+            "value": [
+                "lambda unit: Fix32(40)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(30) ", 
+                [
+                    [
+                        "level"
+                    ]
+                ], 
+                "lambda unit: Fix32(40)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(30) ", 
+                {
+                    "ability.cur_ability.ability_level": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "ability", 
+                        "cur_ability", 
+                        "ability_level"
+                    ]
+                ]
+            ]
+        }, 
+        "DebuffTime": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "DebuffTime", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "type": 1, 
+            "value": 5.0
+        }, 
+        "FriendMpAdd": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "FriendMpAdd", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "type": 24, 
+            "value": [
+                "lambda unit: Fix32(80)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(40)+Fix32(unit.ability_target.api_get_float_attr('mp_max'))*(Fix32(5)+Fix32(unit.ability_level))*Fix32(0.01) ", 
+                [
+                    [
+                        "level"
+                    ], 
+                    [
+                        "ability_target", 
+                        "ATTR_RESULT", 
+                        "mp_max"
+                    ], 
+                    [
+                        "level"
+                    ]
+                ], 
+                "lambda unit: Fix32(80)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(40)+Fix32(unit.ability_target.api_get_float_attr('mp_max'))*(Fix32(5)+Fix32(unit.ability_level))*Fix32(0.01) ", 
+                {
+                    "ability.cur_ability.ability_level": {
+                        "is_cm": false
+                    }, 
+                    "unit.ability_target.ATTR_ALL_RATIO.mp_max": {
+                        "is_cm": false
+                    }, 
+                    "unit.ability_target.ATTR_RESULT.mp_max": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "ability", 
+                        "cur_ability", 
+                        "ability_level"
+                    ], 
+                    [
+                        "unit", 
+                        "ability_target", 
+                        "ATTR_RESULT", 
+                        "mp_max"
+                    ], 
+                    [
+                        "ability", 
+                        "cur_ability", 
+                        "ability_level"
+                    ]
+                ]
+            ]
+        }, 
+        "MpAdd": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "MpAdd", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "type": 24, 
+            "value": [
+                "lambda unit: Fix32(80)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(40)", 
+                [
+                    [
+                        "level"
+                    ]
+                ], 
+                "lambda unit: Fix32(80)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(40)", 
+                {
+                    "ability.cur_ability.ability_level": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "ability", 
+                        "cur_ability", 
+                        "ability_level"
+                    ]
+                ]
+            ]
+        }, 
+        "shortdec": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "shortdec", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "type": 0, 
+            "value": "\u5bf9\u53cb\u519b\u4f7f\u7528\uff0c\u6062\u590d\u53cb\u519b\u6cd5\u529b\u503c\u3002\u5bf9\u654c\u519b\u4f7f\u7528\uff0c\u964d\u4f4e\u76ee\u6807\u653b\u51fb\u529b\u548c\u6cd5\u672f\u5f3a\u5ea6\u3002"
+        }
+    }, 
+    "magicbook_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "name": 553112837, 
+    "need_turn_to_target": true, 
+    "pick_count": 1, 
+    "player_props_cost": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "precondition_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "ps_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "ps_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "release_immediately_out_of_range": false, 
+    "required_level": {
+        "formula": {
+            "__tuple__": true, 
+            "items": [
+                "lambda unit: Fix32(unit.level)*Fix32(2)-Fix32(1)", 
+                [
+                    "level"
+                ], 
+                "lambda unit: Fix32(unit.level)*Fix32(2)-Fix32(1)", 
+                {
+                    "ability_learn.cur_ability.level": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "ability_learn", 
+                        "cur_ability", 
+                        "level"
+                    ]
+                ]
+            ]
+        }, 
+        "required_levels": {
+            "__tuple__": true, 
+            "items": [
+                1, 
+                3, 
+                5, 
+                7, 
+                9
+            ]
+        }
+    }, 
+    "sector_angle": {
+        "__tuple__": true, 
+        "items": [
+            " 0 "
+        ]
+    }, 
+    "sector_radius": {
+        "__tuple__": true, 
+        "items": [
+            "10.0"
+        ]
+    }, 
+    "show_building_attack_range": false, 
+    "sight_type": 4, 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "sp_count_down": false, 
+    "sp_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "sp_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "suffix": "", 
+    "tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "target_attribute": 0, 
+    "type_priority_building": 0, 
+    "type_priority_creature": 0, 
+    "type_priority_destructible": 0, 
+    "type_priority_hero": 0, 
+    "type_priority_item": 0, 
+    "uid": "134243533"
+}

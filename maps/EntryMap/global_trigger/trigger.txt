@@ -1,0 +1,345 @@
+{
+    "children": [
+        {
+            "children": null, 
+            "key": 1875570739, 
+            "name": "\u6e38\u620f\u521d\u59cb\u5316", 
+            "type": "file"
+        }, 
+        {
+            "children": [
+                {
+                    "children": null, 
+                    "key": 786112514, 
+                    "name": "\u521d\u59cb\u5316\u66f4\u65b0\u4e8b\u4ef6", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 734306311, 
+                    "name": "\u521d\u59cb\u5316\u6570\u636e", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 333193219, 
+                    "name": "\u521d\u59cb\u5316\u4e3b\u8981\u4e8b\u4ef6\u5904\u7406", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 1496309785, 
+                    "name": "\u521d\u59cb\u5316\u754c\u9762\u4e8b\u4ef6", 
+                    "type": "file"
+                }
+            ], 
+            "key": "k-yOwLG2Ee2YRwD-+E6xsS", 
+            "name": "UI", 
+            "type": "trigger_group"
+        }, 
+        {
+            "children": [
+                {
+                    "children": null, 
+                    "key": 568463368, 
+                    "name": "\u9009\u62e9\u5355\u4f4d", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 1559846928, 
+                    "name": "\u9009\u62e9\u5355\u4f4d\u7ec4", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 671428624, 
+                    "name": "\u9009\u62e9\u7269\u54c1", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 1393229841, 
+                    "name": "\u9009\u62e9\u53ef\u7834\u574f\u7269", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 1270726670, 
+                    "name": "\u5237\u65b0\u5355\u4f4d\u5c5e\u6027", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 718082063, 
+                    "name": "\u7ed1\u5b9a\u5355\u4f4d\u7684\u6280\u80fd\u6309\u94ae", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 534593552, 
+                    "name": "\u7ed1\u5b9a\u5355\u4f4d\u7684\u7269\u54c1\u680f", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 2079805465, 
+                    "name": "\u8bbe\u7f6e\u4e3b\u63a7\u5355\u4f4d", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 1039151122, 
+                    "name": "\u79fb\u52a8\u63d0\u793a\u6846\u5230\u9f20\u6807\u5750\u6807", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 132288546, 
+                    "name": "\u5237\u65b0\u63d0\u793a\u6846", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 1585119271, 
+                    "name": "\u6253\u5f00\u5546\u5e97", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 1425182768, 
+                    "name": "\u5237\u65b0\u5546\u5e97\u9875\u7b7e", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 1325858865, 
+                    "name": "\u5237\u65b0\u5546\u5e97\u9875\u7b7e\u6807\u9898", 
+                    "type": "file"
+                }, 
+                {
+                    "children": null, 
+                    "key": 828813355, 
+                    "name": "\u5f39\u51fa\u63d0\u793a", 
+                    "type": "file"
+                }
+            ], 
+            "key": "KF0OsLKSEe2XPAD-+E6xse", 
+            "name": "ui", 
+            "type": "function_group"
+        }, 
+        {
+            "children": null, 
+            "key": 1257107466, 
+            "name": "Select Unit", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 435048459, 
+            "name": "Select Unit Group", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 1743675404, 
+            "name": "Select Item", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 602828813, 
+            "name": "Select Destructible", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 2096021518, 
+            "name": "Open Bag", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 384389137, 
+            "name": "MOUSE MOVE", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 1023295507, 
+            "name": "on_hero_create", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 2132029460, 
+            "name": "on_hero_delete", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 499355669, 
+            "name": "\u5b50\u89e6\u53d1\u5668", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 383975446, 
+            "name": "on_hero_reborn", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 2081886231, 
+            "name": "on_hero_dead", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 72462362, 
+            "name": "change main unit", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 1872433179, 
+            "name": "t1", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 2094870556, 
+            "name": "t2", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 503767069, 
+            "name": "t1_2", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 36646942, 
+            "name": "change main unit by hotkey", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 291192863, 
+            "name": "focu_on_select_unit", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 459735072, 
+            "name": "release_listener", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 1302442017, 
+            "name": "main_unit_skill_list_value_change", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 651300900, 
+            "name": "show_skill_tips", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 1859280934, 
+            "name": "show_inventory_tips", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 416448551, 
+            "name": "hide_tips", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 649699366, 
+            "name": "show_modifier_tips", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 978677801, 
+            "name": "show_store_tips", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 1665630250, 
+            "name": "sell_item", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 863993900, 
+            "name": "buy_item", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 2010271789, 
+            "name": "store_tab_click", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 1523929134, 
+            "name": "store_tab_down", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 366354479, 
+            "name": "store_tab_up", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 1913552945, 
+            "name": "minimap_btn1", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 1897074738, 
+            "name": "minimap_btn2", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 2064273458, 
+            "name": "show_bag_tips", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 990195764, 
+            "name": "fresh_sell_list", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 524156982, 
+            "name": "on_unit_dead", 
+            "type": "file"
+        }, 
+        {
+            "children": null, 
+            "key": 210653238, 
+            "name": "on_unit_delete", 
+            "type": "file"
+        }
+    ], 
+    "key": null, 
+    "name": "trigger", 
+    "type": "folder"
+}

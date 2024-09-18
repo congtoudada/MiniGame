@@ -1,0 +1,8 @@
+{
+    "game_modes": {
+        "1001": {
+            "desc": "default"
+        }
+    }, 
+    "lobby": 0
+}

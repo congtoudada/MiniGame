@@ -1,0 +1,103 @@
+{
+    "camps": [
+        {
+            "__tuple__": true, 
+            "items": [
+                1, 
+                {
+                    "id": 1, 
+                    "name": "$faction 1", 
+                    "role_ids": [
+                        1
+                    ], 
+                    "share_vision": true
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                30, 
+                {
+                    "id": 30, 
+                    "name": "$code_camp_referee", 
+                    "role_ids": [], 
+                    "share_vision": true
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                9999, 
+                {
+                    "id": 9999, 
+                    "name": "$faction 9999", 
+                    "role_ids": [
+                        31, 
+                        32
+                    ], 
+                    "share_vision": true
+                }
+            ]
+        }
+    ], 
+    "role_res_types": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "official_res_1", 
+                {
+                    "default": 0, 
+                    "icon_id": 100000, 
+                    "is_coin": true, 
+                    "key": "official_res_1", 
+                    "lower_bound": 0, 
+                    "name": "gold", 
+                    "upper_bound": 1073774591
+                }
+            ]
+        }
+    ], 
+    "roles": [
+        {
+            "__tuple__": true, 
+            "items": [
+                1, 
+                {
+                    "camp_id": 1, 
+                    "color": "#FF0000", 
+                    "id": 1, 
+                    "name": "$player 1", 
+                    "type": 1
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                31, 
+                {
+                    "camp_id": 9999, 
+                    "color": "#808080", 
+                    "id": 31, 
+                    "name": "$player 31", 
+                    "type": 2
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                32, 
+                {
+                    "camp_id": 9999, 
+                    "color": "#808080", 
+                    "id": 32, 
+                    "name": "$player 32", 
+                    "type": 2
+                }
+            ]
+        }
+    ]
+}

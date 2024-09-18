@@ -1,0 +1,425 @@
+{
+    "_custom_": true, 
+    "_ref_": 134266361, 
+    "ability_break_cast_range": {
+        "__tuple__": true, 
+        "items": [
+            "50.0"
+        ]
+    }, 
+    "ability_build_subtype": 1, 
+    "ability_bw_point": 0.0, 
+    "ability_cast_point": 0.0, 
+    "ability_cast_range": {
+        "__tuple__": true, 
+        "items": [
+            "5.5"
+        ]
+    }, 
+    "ability_cast_type": 2, 
+    "ability_channel_time": 0.0, 
+    "ability_cost": {
+        "__tuple__": true, 
+        "items": [
+            " 35+5*ability_level"
+        ]
+    }, 
+    "ability_damage": {
+        "__tuple__": true, 
+        "items": [
+            "5"
+        ]
+    }, 
+    "ability_damage_range": {
+        "__tuple__": true, 
+        "items": [
+            "0.0"
+        ]
+    }, 
+    "ability_hp_cost": {
+        "__tuple__": true, 
+        "items": [
+            "0"
+        ]
+    }, 
+    "ability_icon": 106737, 
+    "ability_max_level": 5, 
+    "ability_max_stack_count": {
+        "__tuple__": true, 
+        "items": [
+            "0"
+        ]
+    }, 
+    "ability_prepare_time": 0.0, 
+    "ability_stack_cd": {
+        "__tuple__": true, 
+        "items": [
+            "0"
+        ]
+    }, 
+    "arrow_length": {
+        "__tuple__": true, 
+        "items": [
+            "5.0"
+        ]
+    }, 
+    "arrow_width": {
+        "__tuple__": true, 
+        "items": [
+            "2.0"
+        ]
+    }, 
+    "auto_pick": true, 
+    "bs_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "bs_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "build_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "build_rotate": 0, 
+    "building_attack_range_sfx": 0, 
+    "camp_priority_enemy": 0, 
+    "camp_priority_friend": 0, 
+    "camp_priority_neutral": 0, 
+    "camp_priority_self": 0, 
+    "can_autocast_when_attack_target": false, 
+    "can_bs_interrupt": true, 
+    "can_cache": true, 
+    "can_cast_interrupt": false, 
+    "can_cast_when_hp_insufficient": false, 
+    "can_cost_hp": false, 
+    "can_interrupt_others": true, 
+    "can_prepare_interrupt": false, 
+    "can_ps_interrupt": false, 
+    "circle_radius": {
+        "__tuple__": true, 
+        "items": [
+            "2.5"
+        ]
+    }, 
+    "cold_down_time": {
+        "__tuple__": true, 
+        "items": [
+            " 7"
+        ]
+    }, 
+    "collection_animation": "", 
+    "collection_animation_loop": true, 
+    "collection_continuously": true, 
+    "collection_destructible_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "cost_hp_can_die": false, 
+    "cst_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "cst_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "description": -2049284589, 
+    "end_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "end_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "filter_condition_camp": 5, 
+    "filter_condition_move_channel_type": 99, 
+    "filter_condition_type": 7, 
+    "filter_item_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "filter_unit_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "forbid_unit_tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "hit_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "hit_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "influenced_by_cd_reduce": true, 
+    "influenced_by_move": true, 
+    "is_autocast": false, 
+    "is_charge_ability": false, 
+    "is_immediate": false, 
+    "is_meele": false, 
+    "key": 134266361, 
+    "kv": {
+        "animation": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "animation", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 0, 
+            "value": "ability_1"
+        }, 
+        "animation2": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "animation2", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 1, 
+            "type": 0, 
+            "value": "ability_1_1"
+        }, 
+        "damage_mag": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "damage_mag", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 24, 
+            "value": [
+                "lambda unit: Fix32(5)+Fix32(35)*Fix32(unit.ability_level)+Fix32(0.6)*Fix32(unit.ability_source.api_get_float_attr('attack_mag'))", 
+                [
+                    [
+                        "level"
+                    ], 
+                    [
+                        "ability_source", 
+                        "ATTR_RESULT", 
+                        "attack_mag"
+                    ]
+                ], 
+                "lambda unit: Fix32(5)+Fix32(35)*Fix32(unit.ability_level)+Fix32(0.6)*Fix32(unit.ability_source.api_get_float_attr('attack_mag'))", 
+                {
+                    "ability.cur_ability.ability_level": {
+                        "is_cm": false
+                    }, 
+                    "unit.ability_source.ATTR_RESULT.attack_mag": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "ability", 
+                        "cur_ability", 
+                        "ability_level"
+                    ], 
+                    [
+                        "unit", 
+                        "ability_source", 
+                        "ATTR_RESULT", 
+                        "attack_mag"
+                    ]
+                ]
+            ]
+        }, 
+        "damage_phy": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "damage_phy", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 3, 
+            "type": 24, 
+            "value": [
+                "lambda unit: Fix32(5)+Fix32(35)*Fix32(unit.ability_level)+Fix32(unit.ability_source.api_get_attr_other('attack_phy'))", 
+                [
+                    [
+                        "level"
+                    ], 
+                    [
+                        "ability_source", 
+                        "ATTR_OTHER", 
+                        "attack_phy"
+                    ]
+                ], 
+                "lambda unit: Fix32(5)+Fix32(35)*Fix32(unit.ability_level)+Fix32(unit.ability_source.api_get_attr_other('attack_phy'))", 
+                {
+                    "ability.cur_ability.ability_level": {
+                        "is_cm": false
+                    }, 
+                    "unit.ability_source.ATTR_OTHER.attack_mag": {
+                        "is_cm": false
+                    }, 
+                    "unit.ability_source.ATTR_OTHER.attack_phy": {
+                        "is_cm": false
+                    }, 
+                    "unit.ability_source.ATTR_RESULT.attack_phy": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "ability", 
+                        "cur_ability", 
+                        "ability_level"
+                    ], 
+                    [
+                        "unit", 
+                        "ability_source", 
+                        "ATTR_OTHER", 
+                        "attack_phy"
+                    ]
+                ]
+            ]
+        }, 
+        "shortdec": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "shortdec", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 4, 
+            "type": 0, 
+            "value": "\u5728\u6307\u5b9a\u533a\u57df\u53ec\u5524\u4e00\u4e2a\u6b8b\u5f71\uff0c\u672c\u4f53\u548c\u6b8b\u5f71\u540c\u65f6\u6325\u5200\u5bf9\u5468\u56f4\u654c\u4eba\u9020\u6210\u4f24\u5bb3"
+        }, 
+        "special": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 31, 
+            "key": "special", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 5, 
+            "type": 9, 
+            "value": 134281390
+        }, 
+        "\u5f3a\u5316\u63cf\u8ff0": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "\u5f3a\u5316\u63cf\u8ff0", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 6, 
+            "type": 0, 
+            "value": "\u5728\u6307\u5b9a\u533a\u57df\u53ec\u55246\u4e2a\u6b8b\u5f71\uff0c\uff0c\u6b8b\u5f71\u4f1a\u8ddf\u968f\u672c\u4f53\u4f7f\u7528\u5343\u91cc\u8d70\u5355\u9a91\u671f\u95f4\u518d\u6b21\u4f7f\u7528\u6b64\u6280\u80fd\u62163\u79d2\u540e\uff0c\u672c\u4f53\u548c\u6b8b\u5f71\u540c\u65f6\u6325\u5200\u65cb\u8f6c\uff0c\u672c\u4f53\u5bf9\u5468\u56f4\u654c\u519b\u9020\u6210|%40/75/110/145/180|$\u7269\u7406\u653b\u51fb|1|\u989d\u5916|%\u7269\u7406\u4f24\u5bb3\uff0c\u6b8b\u5f71\u5bf9\u5468\u56f4\u654c\u519b\u9020\u6210|%40/75/110/145/180|$\u6cd5\u672f\u653b\u51fb|0.6|%\u6cd5\u672f\u4f24\u5bb3\u3002"
+        }
+    }, 
+    "magicbook_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "name": -554283174, 
+    "need_turn_to_target": true, 
+    "pick_count": 1, 
+    "player_props_cost": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "precondition_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "ps_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "ps_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "release_immediately_out_of_range": true, 
+    "required_level": {
+        "formula": {
+            "__tuple__": true, 
+            "items": [
+                "lambda unit: Fix32(unit.level)*Fix32(2)-Fix32(1)", 
+                [
+                    "level"
+                ], 
+                "lambda unit: Fix32(unit.level)*Fix32(2)-Fix32(1)", 
+                {
+                    "ability_learn.cur_ability.level": {
+                        "is_cm": false
+                    }
+                }, 
+                [
+                    [
+                        "ability_learn", 
+                        "cur_ability", 
+                        "level"
+                    ]
+                ]
+            ]
+        }, 
+        "required_levels": {
+            "__tuple__": true, 
+            "items": [
+                1, 
+                3, 
+                5, 
+                7, 
+                9
+            ]
+        }
+    }, 
+    "sector_angle": {
+        "__tuple__": true, 
+        "items": [
+            " 180"
+        ]
+    }, 
+    "sector_radius": {
+        "__tuple__": true, 
+        "items": [
+            "4.5"
+        ]
+    }, 
+    "show_building_attack_range": false, 
+    "sight_type": 3, 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": [
+            [
+                "ABILITY_SP_END", 
+                134228084, 
+                11
+            ]
+        ]
+    }, 
+    "sp_count_down": false, 
+    "sp_sfx_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "sp_sound_effect": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "suffix": "", 
+    "tags": {
+        "__tuple__": true, 
+        "items": [
+            "AOE"
+        ]
+    }, 
+    "target_attribute": 0, 
+    "type_priority_building": 0, 
+    "type_priority_creature": 0, 
+    "type_priority_destructible": 0, 
+    "type_priority_hero": 0, 
+    "type_priority_item": 0, 
+    "uid": "134266361"
+}
