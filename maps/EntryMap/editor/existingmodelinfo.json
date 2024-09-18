@@ -510,5 +510,13 @@
   ], 
   "btn_visible": false, 
   "btn_lock": false
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10015, 
+   "\u6709\u6548\u533a\u57df", 
+   2048
+  ]
  }
 ]

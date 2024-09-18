@@ -7,8 +7,11 @@
         {
             "type": "lua",
             "request": "attach",
-            "name": "Debug",
-            "address": "127.0.0.1:12306"
+            "name": "💡附加",
+            "address": "127.0.0.1:12399",
+            "outputCapture": [],
+            "stopOnEntry": false,
+            "inject": "none",
         }
     ]
 }

@@ -165,7 +165,20 @@
     "keep_dead_body_time": 0.0, 
     "keep_target": true, 
     "key": 134283227, 
-    "kv": {}, 
+    "kv": {
+        "\u7d22\u5f15": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "\u7d22\u5f15", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 0, 
+            "type": 2, 
+            "value": 1
+        }
+    }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_balance_angle": 75, 

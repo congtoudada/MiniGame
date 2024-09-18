@@ -1,11 +1,27 @@
 {
     "variable_dict": {
         "BOOLEAN": {}, 
+        "DAMAGE_TYPE": {}, 
+        "FLOAT": {}, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0, 
+            "MapColInterval": 316, 
+            "MapCols": 6, 
+            "MapRowInterval": 400, 
+            "MapRows": 6, 
             "WASD_\u7f13\u5b58\u8f93\u5165": 0
         }, 
         "NEW_TIMER": {}, 
+        "POINT": {
+            "TargetPoint": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }
+        }, 
         "STRING": {
             "CurrentMap": ""
         }, 
@@ -17,6 +33,7 @@
             "\u73a9\u5bb61\u5355\u4f4d": 0, 
             "\u73a9\u5bb62\u5355\u4f4d": 0
         }, 
+        "UNIT_GROUP": {}, 
         "UNIT_NAME": {}
     }, 
     "variable_group_info": [
@@ -68,11 +85,51 @@
                 "CurrentMap", 
                 "CurrentMap"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "MapRows", 
+                "MapRows"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "MapCols", 
+                "MapCols"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "MapRowInterval", 
+                "MapRowInterval"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "MapColInterval", 
+                "MapColInterval"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "TargetPoint", 
+                "TargetPoint"
+            ]
         }
     ], 
     "variable_length_dict": {
         "CurrentMap": 10, 
         "GLOBAL_BAG_MAX_NUM": 0, 
+        "MapColInterval": 0, 
+        "MapCols": 0, 
+        "MapRowInterval": 0, 
+        "MapRows": 0, 
+        "TargetPoint": 10, 
         "UI_Manager": 0, 
         "WASD_\u7f13\u5b58\u8f93\u5165": 0, 
         "\u5e78\u5b58\u8005_\u4e3b\u63a7\u5355\u4f4d": 0, 

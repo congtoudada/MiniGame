@@ -1,100 +1,143 @@
-require 'python'
-Python = python
---require "y3.debugger":start "127.0.0.1:12306"
+arg = GameAPI.lua_get_start_args()
 
+pcall(function ()
+    LDBG = require "y3.debugger":start "127.0.0.1:12399"
+    if arg['lua_wait_debugger'] == 'true' then
+        WAIT_DBG = true
+        LDBG:event 'wait'
+    end
+end)
 
----全局方法类，提供各种全局方法
----@class y3
----@filed const const
----@filed ability ability
----@field destructible destructible
----@field item item
----@field modifier modifier
----@field projectile projectile
----@field purchase purchase
----@field unit unit
----@field beam beam
----@field item_group item_group
----@field mover mover
----@field particle particle
----@field player player
----@field player_group player_group
----@field timer timer
----@field unit_group unit_group
----@field area area
----@field camera camera
----@field light light
----@field path path
----@field point point
----@field scene_ui scene_ui
----@field ui ui
----@field ui_prefab ui_prefab
+-- 全局方法类，提供各种全局方法
+---@class Y3
 y3 = {}
 
-_game_init = false
+y3.version = 240902
 
----枚举统一作为enum的成员
----@class enum
-enum = {}
-
-
-require 'y3.game.event_data'
-require 'y3.game.const'
-require 'y3.game.constant'
-require 'y3.game.trigger'
-require 'y3.game.trigger_new'
-require 'y3.game.event_manager'
-require 'y3.game.event'
-require 'y3.game.game_api'
-require 'y3.game.global_api'
-require 'y3.game.py_obj'
-require 'y3.game.tips'
-require 'y3.game.util'
-
-
-require 'y3.editable_object.unit'
-require 'y3.editable_object.ability'
-require 'y3.editable_object.destructible'
-require 'y3.editable_object.item'
-require 'y3.editable_object.modifier'
-require 'y3.editable_object.projectile'
-require 'y3.editable_object.purchase'
-
-require 'y3.runtime_object.beam'
-require 'y3.runtime_object.item_group'
-require 'y3.runtime_object.math'
-require 'y3.runtime_object.mover'
-require 'y3.runtime_object.particle'
-require 'y3.runtime_object.player'
-require 'y3.runtime_object.player_group'
-require 'y3.runtime_object.timer'
-require 'y3.runtime_object.unit_group'
-require 'y3.runtime_object.projectile_group'
-
-require 'y3.scene_object.area'
-require 'y3.scene_object.camera'
-require 'y3.scene_object.light'
-require 'y3.scene_object.path'
-require 'y3.scene_object.point'
-require 'y3.scene_object.scene_ui'
-require 'y3.scene_object.ui'
-require 'y3.scene_object.ui_prefab'
-
-event_manager.init()
-
-function print(...)
-	local str = ''
-    local t = {...}
-    for i = 1, #t - 1 do
-        str = str .. tostring(t[i]) .. '    '
-    end
-    str = str .. tostring(t[#t])
-	game_api.print_to_dialog(3,str)
-end
-
--- y3.trigger.create_global_trigger("Initialization", function(data)
---     _game_init = true
--- end) 
-y3.game:event(const.GlobalEventType['GAME_INIT'],function (data)
-    _game_init = true
+y3.proxy   = require 'y3.tools.proxy'
+y3.class   = require 'y3.tools.class'
+y3.util    = require 'y3.tools.utility'
+y3.json    = require 'y3.tools.json'
+y3.inspect = require 'y3.tools.inspect'
+y3.await   = require 'y3.tools.await'
+pcall(function ()
+    y3.doctor = require 'y3.tools.doctor'
 end)
+
+Class   = y3.class.declare
+New     = y3.class.new
+---@deprecated
+---@diagnostic disable-next-line: deprecated
+Super   = y3.class.super
+Extends = y3.class.extends
+Delete  = y3.class.delete
+IsValid = y3.class.isValid
+IsInstanceOf = y3.class.isInstanceOf
+
+require 'y3.util.log'
+y3.reload  = require 'y3.tools.reload'
+y3.sandbox = require 'y3.tools.sandbox'
+y3.hash    = require 'y3.tools.SDBMHash'
+
+---@diagnostic disable-next-line: lowercase-global
+include  = y3.reload.include
+
+require 'y3.tools.linked_table'
+require 'y3.tools.pool'
+require 'y3.tools.gc'
+require 'y3.tools.synthesis'
+
+require 'y3.util.eca_function'
+require 'y3.util.trigger'
+require 'y3.util.event'
+require 'y3.util.event_manager'
+require 'y3.util.custom_event'
+require 'y3.util.ref'
+require 'y3.util.storage'
+require 'y3.util.gc_buffer'
+
+y3.ctimer       = require 'y3.util.client_timer'
+y3.const        = require 'y3.game.const'
+y3.math         = require 'y3.game.math'
+y3.game         = require 'y3.game.game'
+y3.py_converter = require 'y3.game.py_converter'
+y3.py_event_sub = require 'y3.game.py_event_subscribe'
+y3.helper       = require 'y3.game.helper'
+y3.ground       = require 'y3.game.ground'
+y3.config       = require 'y3.game.config'
+y3.kv           = require 'y3.game.kv'
+y3.timer        = require 'y3.object.runtime_object.timer'
+y3.py_proxy     = require 'y3.util.py_proxy'
+y3.ltimer       = require 'y3.util.local_timer'
+
+y3.unit         = require 'y3.object.editable_object.unit'
+y3.ability      = require 'y3.object.editable_object.ability'
+y3.destructible = require 'y3.object.editable_object.destructible'
+y3.item         = require 'y3.object.editable_object.item'
+y3.buff         = require 'y3.object.editable_object.buff'
+y3.projectile   = require 'y3.object.editable_object.projectile'
+y3.technology   = require 'y3.object.editable_object.technology'
+
+y3.beam         = require 'y3.object.runtime_object.beam'
+y3.item_group   = require 'y3.object.runtime_object.item_group'
+y3.mover        = require 'y3.object.runtime_object.mover'
+y3.particle     = require 'y3.object.runtime_object.particle'
+y3.player       = require 'y3.object.runtime_object.player'
+y3.player_group = require 'y3.object.runtime_object.player_group'
+y3.unit_group   = require 'y3.object.runtime_object.unit_group'
+y3.projectile_group = require 'y3.object.runtime_object.projectile_group'
+y3.selector     = require 'y3.object.runtime_object.selector'
+y3.cast         = require 'y3.object.runtime_object.cast'
+y3.damage_instance = require 'y3.object.runtime_object.damage_instance'
+y3.heal_instance   = require 'y3.object.runtime_object.heal_instance'
+y3.sound        = require 'y3.object.runtime_object.sound'
+
+require 'y3.object.runtime_object.local_player'
+require 'y3.object.runtime_object.current_select'
+
+y3.area         = require 'y3.object.scene_object.area'
+y3.camera       = require 'y3.object.scene_object.camera'
+y3.light        = require 'y3.object.scene_object.light'
+y3.road         = require 'y3.object.scene_object.road'
+y3.point        = require 'y3.object.scene_object.point'
+y3.scene_ui     = require 'y3.object.scene_object.scene_ui'
+y3.ui           = require 'y3.object.scene_object.ui'
+y3.ui_prefab    = require 'y3.object.scene_object.ui_prefab'
+y3.shape        = require 'y3.object.scene_object.shape'
+
+y3.object       = require 'y3.util.object'
+y3.save_data    = require 'y3.util.save_data'
+y3.dump         = require 'y3.util.dump'
+y3.sync         = require 'y3.util.sync'
+y3.network      = require 'y3.util.network'
+y3.eca          = require 'y3.util.eca_helper'
+y3.base64       = require 'y3.util.base64'
+y3.aes          = require 'y3.util.aes'
+y3.local_ui     = require 'y3.util.local_ui'
+y3.fs           = require 'y3.util.fs'
+
+pcall(function ()
+    require 'y3-helper.meta'
+end)
+
+y3.develop = {}
+y3.develop.command = include 'y3.develop.command'
+y3.develop.code    = require 'y3.develop.code'
+y3.develop.console = include 'y3.develop.console'
+y3.develop.helper  = require 'y3.develop.helper'
+
+--对await进行一些配置
+y3.await.setErrorHandler(log.error)
+y3.await.setSleepWaker(y3.ltimer.wait)
+
+log.info('LuaLib版本：', y3.version)
+
+y3.game:event_dispatch('$Y3-初始化')
+
+--自己控制GC
+GlobalAPI.api_stop_luagc_control()
+-- collectgarbage('generational')
+-- collectgarbage('incremental')
+-- collectgarbage('restart')
+local collector = require 'y3.tools.collector'
+collector.start()
