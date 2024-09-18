@@ -1,0 +1,447 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        [
+                            "UNIT_ENTITY", 
+                            "玩家单位", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 11
+                }, 
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "单位类型", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "POINT", 
+                                        "起始位置", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 19
+                        }, 
+                        {
+                            "arg_type": 100225, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        0.0
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_ANGLE_BY_FLOAT"
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "玩家", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "op_arg": [
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false
+                    ], 
+                    "sub_type": "CREATE_UNIT_NEW"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 134201399000120, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "玩家单位", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 11
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "玩家", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "6b88d3c076ed11ee976630d042e90e85"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 224763968000112, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SELECT_UNIT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "玩家", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "玩家单位", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }
+            ], 
+            "bp": false, 
+            "element_id": 609304604949575, 
+            "enable": true
+        }, 
+        {
+            "action_type": "OPEN_OR_CLOSE_TIME_SPEED", 
+            "args_list": [
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 609304604949578, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_ROLE_MOUSE_LEFT_CLICK", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "玩家", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100048, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 609304604949597, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_ROLE_MOUSE_MOVE_SELECT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "玩家", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100048, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 609304604949600, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_ROLE_MOUSE_WHEEL", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "玩家", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100048, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 609304604949610, 
+            "enable": true
+        }, 
+        {
+            "action_type": "NEW_CAMERA_SET_MOVE_NOT_ENABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "玩家", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 609304604949620, 
+            "enable": true
+        }, 
+        {
+            "action_type": "NEW_CAMERA_SET_FOLLOW_UNIT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "玩家", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "玩家单位", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }
+            ], 
+            "bp": false, 
+            "element_id": 224763968000188, 
+            "enable": true, 
+            "op_arg": [
+                null, 
+                null, 
+                null
+            ], 
+            "op_arg_enable": [
+                false, 
+                false, 
+                false
+            ]
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "玩家单位", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }
+            ], 
+            "bp": false, 
+            "element_id": 224763968000104, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "函数描述{玩家}{单位类型}{起始位置}", 
+    "func_id": "259b08f8756d11ef97c585ef67cb9fee", 
+    "func_name": "PlayerInit", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "玩家", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "单位类型", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "起始位置", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "玩家单位", 
+                "UNIT_ENTITY"
+            ]
+        }
+    ], 
+    "group_id": "ILgQ+XVtEe+vKYXvZ8uf7v", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 224763968, 
+    "trigger_name": "PlayerInit", 
+    "valid": true, 
+    "var_data": [
+        {
+            "PLAYER": {
+                "玩家": 0
+            }, 
+            "POINT": {
+                "起始位置": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }
+            }, 
+            "UNIT_ENTITY": {
+                "玩家单位": 0
+            }, 
+            "UNIT_NAME": {
+                "单位类型": 0
+            }
+        }, 
+        {
+            "单位类型": 0, 
+            "玩家": 0, 
+            "玩家单位": 0, 
+            "起始位置": 0
+        }, 
+        [
+            "玩家单位", 
+            "玩家", 
+            "单位类型", 
+            "起始位置"
+        ]
+    ]
+}

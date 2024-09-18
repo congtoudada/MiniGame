@@ -1,12 +1,22 @@
 {
     "variable_dict": {
+        "BOOLEAN": {}, 
         "INTEGER": {
-            "GLOBAL_BAG_MAX_NUM": 0
+            "GLOBAL_BAG_MAX_NUM": 0, 
+            "WASD_\u7f13\u5b58\u8f93\u5165": 0
+        }, 
+        "NEW_TIMER": {}, 
+        "STRING": {
+            "CurrentMap": ""
         }, 
         "TABLE": {
             "UI_Manager": null
         }, 
-        "UNIT_ENTITY": {}, 
+        "UNIT_ENTITY": {
+            "\u5e78\u5b58\u8005_\u4e3b\u63a7\u5355\u4f4d": 0, 
+            "\u73a9\u5bb61\u5355\u4f4d": 0, 
+            "\u73a9\u5bb62\u5355\u4f4d": 0
+        }, 
         "UNIT_NAME": {}
     }, 
     "variable_group_info": [
@@ -23,10 +33,50 @@
                 "GLOBAL_BAG_MAX_NUM", 
                 "GLOBAL_BAG_MAX_NUM"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "WASD_\u7f13\u5b58\u8f93\u5165", 
+                "WASD_\u7f13\u5b58\u8f93\u5165"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u73a9\u5bb61\u5355\u4f4d", 
+                "\u73a9\u5bb61\u5355\u4f4d"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u73a9\u5bb62\u5355\u4f4d", 
+                "\u73a9\u5bb62\u5355\u4f4d"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5e78\u5b58\u8005_\u4e3b\u63a7\u5355\u4f4d", 
+                "\u5e78\u5b58\u8005_\u4e3b\u63a7\u5355\u4f4d"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "CurrentMap", 
+                "CurrentMap"
+            ]
         }
     ], 
     "variable_length_dict": {
+        "CurrentMap": 10, 
         "GLOBAL_BAG_MAX_NUM": 0, 
-        "UI_Manager": 0
+        "UI_Manager": 0, 
+        "WASD_\u7f13\u5b58\u8f93\u5165": 0, 
+        "\u5e78\u5b58\u8005_\u4e3b\u63a7\u5355\u4f4d": 0, 
+        "\u73a9\u5bb61\u5355\u4f4d": 0, 
+        "\u73a9\u5bb62\u5355\u4f4d": 0
     }
 }

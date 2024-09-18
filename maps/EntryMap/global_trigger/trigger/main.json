@@ -1,25 +1,248 @@
 {
     "action": [
+        [
+            1397271045, 
+            "系统初始化", 
+            1875570739, 
+            "action_type"
+        ], 
+        [
+            1233243603, 
+            "地图初始化", 
+            1875570739, 
+            "action_type"
+        ], 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                6
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                6
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "813ed158759011ef91a0a39d81ca58d2"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 1875570739271055, 
+            "enable": true
+        }, 
         {
             "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
             "args_list": [
                 {
                     "arg_type": 100175, 
                     "args_list": [
-                        3
+                        2
                     ], 
                     "sub_type": 1
                 }, 
                 {
                     "arg_type": 100003, 
+                    "args_list": [], 
+                    "call_rt_index": 0, 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "49d2bba8759211ef9e46a39d81ca58d2"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1875570739271068, 
+            "enable": false
+        }, 
+        {
+            "action_type": "LIST_LOOP", 
+            "args_list": [
+                {
+                    "arg_type": 100081, 
                     "args_list": [
-                        "Hello World!"
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "STRING", 
+                                "CurrentMap"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100175, 
+                                    "args_list": [
+                                        2
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "STRING", 
+                                                "CurrentMap"
+                                            ]
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_LOOP_LIST_INDEX"
+                                        }
+                                    ], 
+                                    "sub_type": 2
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1875570739271225, 
+                            "enable": true
+                        }
                     ], 
                     "sub_type": 1
                 }
             ], 
             "bp": false, 
-            "element_id": 1875570739000048, 
+            "element_id": 1875570739271075, 
+            "enable": false
+        }, 
+        [
+            2109182870, 
+            "玩家控制设置", 
+            1875570739, 
+            "action_type"
+        ], 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                134283227
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                10000
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "259b08f8756d11ef97c585ef67cb9fee"
+                }, 
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "玩家1单位"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [
+                0
+            ], 
+            "element_id": 1875570739000092, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                2
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                134257690
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                10003
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "259b08f8756d11ef97c585ef67cb9fee"
+                }, 
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "玩家2单位"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [
+                0
+            ], 
+            "element_id": 1875570739000104, 
             "enable": true
         }
     ], 
@@ -37,10 +260,12 @@
     "group_id": 0, 
     "p_trigger_id": null, 
     "trigger_id": 1875570739, 
-    "trigger_name": "main", 
+    "trigger_name": "Main", 
     "valid": true, 
     "var_data": [
-        {}, 
+        {
+            "NEW_TIMER": {}
+        }, 
         {}, 
         []
     ]

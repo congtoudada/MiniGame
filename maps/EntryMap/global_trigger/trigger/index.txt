@@ -1,4 +1,4 @@
 {
-    "UI.folder": 1, 
-    "main.json": 0
+    "Main.json": 0, 
+    "UI.folder": 1
 }

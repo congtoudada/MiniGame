@@ -8,7 +8,8 @@
                     "id": 1, 
                     "name": "$faction 1", 
                     "role_ids": [
-                        1
+                        1, 
+                        2
                     ], 
                     "share_vision": true
                 }
@@ -48,13 +49,13 @@
             "items": [
                 "official_res_1", 
                 {
-                    "default": 0, 
+                    "default": 0.0, 
                     "icon_id": 100000, 
                     "is_coin": true, 
                     "key": "official_res_1", 
-                    "lower_bound": 0, 
+                    "lower_bound": 0.0, 
                     "name": "gold", 
-                    "upper_bound": 1073774591
+                    "upper_bound": 1073774591.0
                 }
             ]
         }
@@ -96,6 +97,19 @@
                     "id": 32, 
                     "name": "$player 32", 
                     "type": 2
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                2, 
+                {
+                    "camp_id": 1, 
+                    "color": "#FF8000", 
+                    "id": 2, 
+                    "name": "$player 2", 
+                    "type": 1
                 }
             ]
         }

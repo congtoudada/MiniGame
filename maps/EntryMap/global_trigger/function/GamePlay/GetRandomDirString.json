@@ -1,0 +1,168 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "RandomIdx", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                24
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "RANDOM_INT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 122347586000040, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "STRING", 
+                                "Result", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "6ae8123f-8f77-4a1d-9446-4d6fe455f09e"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "RandomIdx", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "RandomDir"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_STRING_TABLE_VAR_ND"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 122347586000006, 
+            "enable": true
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "STRING", 
+                                "Result", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "bp": false, 
+            "element_id": 122347586000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "函数描述", 
+    "func_id": "49d2bba8759211ef9e46a39d81ca58d2", 
+    "func_name": "GetRandomDirString", 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "返回的方向字符串", 
+                "STRING"
+            ]
+        }
+    ], 
+    "group_id": "flWYYHWQEe+1KaOdgcpY0h", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 122347586, 
+    "trigger_name": "GetRandomDirString", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "RandomIdx": 0
+            }, 
+            "STRING": {
+                "Result": ""
+            }
+        }, 
+        {
+            "RandomIdx": 0, 
+            "Result": 0
+        }, 
+        [
+            "Result", 
+            "RandomIdx"
+        ]
+    ]
+}

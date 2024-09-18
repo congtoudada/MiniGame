@@ -1,3 +1,6 @@
 {
-    "ui_2.folder": 0
+    "GamePlay.folder": 3, 
+    "Player.folder": 2, 
+    "WASD控制单位移动_函数.folder": 0, 
+    "ui_2.folder": 1
 }

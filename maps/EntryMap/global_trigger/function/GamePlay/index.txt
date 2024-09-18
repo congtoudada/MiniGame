@@ -1,0 +1,4 @@
+{
+    "GetRandomDirString.json": 1, 
+    "LoadMap.json": 0
+}
