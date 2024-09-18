@@ -1,0 +1,28 @@
+{
+    "anims": {}, 
+    "box": {
+        "__tuple__": true, 
+        "items": [
+            -0.5497890114784241, 
+            -0.05078199878334999, 
+            -0.7003520131111145, 
+            0.5497890114784241, 
+            0.05078199878334999, 
+            0.7003520131111145
+        ]
+    }, 
+    "custom": true, 
+    "meshes": {
+        "__tuple__": true, 
+        "items": [
+            "custom_model/134241327/Letter_A"
+        ]
+    }, 
+    "model_id": 134241327, 
+    "name": "Letter_A", 
+    "physics_meshes": [
+        "custom_model/134241327/AutoPhy_Mesh_Letter_A"
+    ], 
+    "preview_icon": "UP1ModelPreview/134241327", 
+    "skeleton": ""
+}

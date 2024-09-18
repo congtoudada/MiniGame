@@ -1,0 +1,19 @@
+{
+    "custom_res_type": "custom_editor_model", 
+    "describe": "test_describe", 
+    "has_upload": false, 
+    "key": 134220258, 
+    "md5": "c68dc9b73f376b63bed20ff72ac90f76", 
+    "model_id": 134220258, 
+    "name": "Letter_W", 
+    "preview_icon": "UP1ModelPreview/134220258", 
+    "res_name": "W_Letter.fbx", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "fbx", 
+    "uid": 134220258, 
+    "url": "https://kk3.nosdn.127.net/editor/png/f73c44e89ab5a99f29a629cb776e2991.png", 
+    "version": 1, 
+    "yaw": 0
+}

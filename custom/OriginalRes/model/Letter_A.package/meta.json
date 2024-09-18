@@ -1,0 +1,24 @@
+{
+    "id": 134241327,
+    "materials": [
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ]
+    ],
+    "md5_file_list": [
+        "A_Letter.fbx"
+    ],
+    "modification_time": 3453320764.782031,
+    "ori_res_type": "ori",
+    "physic": true,
+    "preview_icon": "thumbnail.png",
+    "res_type": "model",
+    "skeleton": "",
+    "source_path": "A_Letter.fbx",
+    "static_import": true,
+    "version": 1,
+    "yaw": 0
+}

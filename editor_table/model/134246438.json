@@ -1,0 +1,28 @@
+{
+    "anims": {}, 
+    "box": {
+        "__tuple__": true, 
+        "items": [
+            -0.3834890127182007, 
+            -0.05078199878334999, 
+            -0.7381240129470825, 
+            0.3834890127182007, 
+            0.05078199878334999, 
+            0.7381240129470825
+        ]
+    }, 
+    "custom": true, 
+    "meshes": {
+        "__tuple__": true, 
+        "items": [
+            "custom_model/134246438/Letter_S"
+        ]
+    }, 
+    "model_id": 134246438, 
+    "name": "Letter_S", 
+    "physics_meshes": [
+        "custom_model/134246438/AutoPhy_Mesh_Letter_S"
+    ], 
+    "preview_icon": "UP1ModelPreview/134246438", 
+    "skeleton": ""
+}

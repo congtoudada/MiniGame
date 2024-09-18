@@ -1,0 +1,19 @@
+{
+    "custom_res_type": "custom_editor_model", 
+    "describe": "test_describe", 
+    "has_upload": false, 
+    "key": 134246438, 
+    "md5": "41875cd466a1e1e21db8e7aec4b51e29", 
+    "model_id": 134246438, 
+    "name": "Letter_S", 
+    "preview_icon": "UP1ModelPreview/134246438", 
+    "res_name": "Letter_S.fbx", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "fbx", 
+    "uid": 134246438, 
+    "url": "https://kk3.nosdn.127.net/editor/png/08ec557df008fd63526c321d96e2f2e6.png", 
+    "version": 1, 
+    "yaw": 0
+}

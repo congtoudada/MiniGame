@@ -1,0 +1,28 @@
+{
+    "anims": {}, 
+    "box": {
+        "__tuple__": true, 
+        "items": [
+            -0.7932069897651672, 
+            -0.05078199878334999, 
+            -0.7003520131111145, 
+            0.7932069897651672, 
+            0.05078199878334999, 
+            0.7003520131111145
+        ]
+    }, 
+    "custom": true, 
+    "meshes": {
+        "__tuple__": true, 
+        "items": [
+            "custom_model/134220258/Letter"
+        ]
+    }, 
+    "model_id": 134220258, 
+    "name": "Letter_W", 
+    "physics_meshes": [
+        "custom_model/134220258/AutoPhy_Mesh_Letter"
+    ], 
+    "preview_icon": "UP1ModelPreview/134220258", 
+    "skeleton": ""
+}
