@@ -1,1 +1,1 @@
-<Item><Type>Mesh</Type><Flags>0</Flags><GUID>dbafc67e-af13-4b47-aff0-995aed5ac9ef</GUID><Package>custom_model/134241327</Package><Class>Mesh</Class><Name>Mesh_Letter_A</Name><Annotation><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Mesh</Type><Flags>0</Flags><GUID>dbafc67e-af13-4b47-aff0-995aed5ac9ef</GUID><Package>custom_model/134241327</Package><Class>Mesh</Class><Name>Mesh_Letter_A</Name><Annotation><CreationTime>0</CreationTime><Anno><Key>CollisionShape</Key><Value>68b1e090-e58a-49cb-864a-7e4b6c361665</Value></Anno></Annotation></Item>

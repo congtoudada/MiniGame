@@ -1,0 +1,121 @@
+{
+    "action": [
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "inputX", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "inputY", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1585254469000015, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "获取输入方向{inputX}{inputY}{posX}{posY}", 
+    "func_id": "3a1a761675a711efa461670ec0ec6660", 
+    "func_name": "自定义移动_输入预处理", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "inputX", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "inputY", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "posX", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "posY", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "NewX", 
+                "INTEGER"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "NewY", 
+                "INTEGER"
+            ]
+        }
+    ], 
+    "group_id": "4cA8g3WjEe+uJ2cOwOxmYG", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1585254469, 
+    "trigger_name": "自定义移动_输入预处理", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "inputX": 0, 
+                "inputY": 0, 
+                "posX": 0, 
+                "posY": 0
+            }, 
+            "NEW_TIMER": {}, 
+            "PLAYER": {}
+        }, 
+        {
+            "inputX": 0, 
+            "inputY": 0, 
+            "posX": 0, 
+            "posY": 0
+        }, 
+        [
+            "inputX", 
+            "inputY", 
+            "posX", 
+            "posY"
+        ]
+    ]
+}

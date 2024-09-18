@@ -129,7 +129,7 @@
             "bp": false, 
             "call_rt_arg_idxes": [], 
             "element_id": 224763968000112, 
-            "enable": true
+            "enable": false
         }, 
         {
             "action_type": "SELECT_UNIT", 
@@ -267,28 +267,6 @@
             ], 
             "bp": false, 
             "element_id": 609304604949610, 
-            "enable": true
-        }, 
-        {
-            "action_type": "NEW_CAMERA_SET_MOVE_NOT_ENABLE", 
-            "args_list": [
-                {
-                    "arg_type": 100025, 
-                    "args_list": [
-                        {
-                            "__tuple__": true, 
-                            "items": [
-                                "PLAYER", 
-                                "玩家", 
-                                "local"
-                            ]
-                        }
-                    ], 
-                    "sub_type": "VARIABLE"
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604949620, 
             "enable": true
         }, 
         {
