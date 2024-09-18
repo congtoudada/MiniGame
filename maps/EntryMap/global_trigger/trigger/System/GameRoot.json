@@ -260,7 +260,7 @@
     "group_id": 0, 
     "p_trigger_id": null, 
     "trigger_id": 1875570739, 
-    "trigger_name": "Main", 
+    "trigger_name": "GameRoot", 
     "valid": true, 
     "var_data": [
         {
