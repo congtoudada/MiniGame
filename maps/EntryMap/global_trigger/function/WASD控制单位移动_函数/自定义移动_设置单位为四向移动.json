@@ -277,6 +277,55 @@
                                 {
                                     "__tuple__": true, 
                                     "items": [
+                                        "INTEGER", 
+                                        "单位属性索引", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UNIT_ENTITY", 
+                                                "控制单位", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 11
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "索引"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_INTEGER_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1299906630178845, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
                                         "POINT", 
                                         "当前单位目标点", 
                                         "local"
@@ -292,11 +341,53 @@
                                     "__tuple__": true, 
                                     "items": [
                                         "POINT", 
-                                        "Target"
+                                        "TargetPoint"
                                     ]
                                 }, 
                                 {
                                     "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "单位属性索引", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "sub_type": 19
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1299906630000282, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "FLOAT", 
+                                        "消费能量", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100000, 
                                     "args_list": [
                                         {
                                             "arg_type": 100006, 
@@ -313,23 +404,281 @@
                                             "sub_type": 11
                                         }, 
                                         {
-                                            "arg_type": 100003, 
+                                            "arg_type": 100301, 
                                             "args_list": [
-                                                "索引"
+                                                "ATTR_RESULT"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100042, 
+                                            "args_list": [
+                                                "ori_speed"
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "sub_type": "GET_INTEGER_KV"
+                                    "sub_type": "GET_UNIT_ATTR"
+                                }, 
+                                {
+                                    "arg_type": 100017, 
+                                    "args_list": [
+                                        "*"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                1.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100017, 
+                                            "args_list": [
+                                                "/"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "FLOAT", 
+                                                        "游戏帧数", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "sub_type": "ARITHMETIC_OPERATION"
                                 }
                             ], 
-                            "sub_type": 19
+                            "sub_type": "ARITHMETIC_OPERATION"
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1299906630000282, 
+                    "element_id": 1299906630178759, 
                     "enable": true
                 }, 
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "FLOAT", 
+                                                        "消费能量", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100015, 
+                                            "args_list": [
+                                                ">"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "FLOAT", 
+                                                        "OffsetEnergy"
+                                                    ]
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "单位属性索引", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "condition_type": "FLOAT_COMPARE", 
+                                    "element_id": 1299906630178815, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "FLOAT", 
+                                                        "消费能量", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "FLOAT", 
+                                                        "OffsetEnergy"
+                                                    ]
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "单位属性索引", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1299906630178837, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1299906630178803, 
+                    "enable": true, 
+                    "fake_op": []
+                }, 
+                {
+                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                    "args_list": [
+                        {
+                            "arg_type": 100175, 
+                            "args_list": [
+                                2
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "正在移动："
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "控制单位", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }
+                                            ], 
+                                            "sub_type": "IS_UNIT_MOVING"
+                                        }
+                                    ], 
+                                    "sub_type": "ANY_VAR_TO_STR"
+                                }
+                            ], 
+                            "op_arg": [
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "STR_JOIN"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2071384134949849, 
+                    "enable": false
+                }, 
+                [
+                    1048341233, 
+                    "输入处理（只有移动到目标点后才可）", 
+                    1299906630, 
+                    "action_type"
+                ], 
                 {
                     "action_type": "IF_THEN_ELSE", 
                     "args_list": [
@@ -382,6 +731,54 @@
                                     ], 
                                     "condition_type": "POINT_COMPARE", 
                                     "element_id": 1299906630000169, 
+                                    "enable": false
+                                }, 
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "FLOAT", 
+                                                        "OffsetEnergy"
+                                                    ]
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "单位属性索引", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100015, 
+                                            "args_list": [
+                                                "<="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                0.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "FLOAT_COMPARE", 
+                                    "element_id": 1299906630179156, 
                                     "enable": true
                                 }
                             ], 
@@ -391,61 +788,46 @@
                             "arg_type": 100022, 
                             "args_list": [
                                 {
-                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                    "action_type": "CREATE_DECO", 
                                     "args_list": [
                                         {
-                                            "arg_type": 100177, 
+                                            "arg_type": 100004, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100006, 
-                                                    "args_list": [
-                                                        [
-                                                            "UNIT_ENTITY", 
-                                                            "控制单位", 
-                                                            "local"
-                                                        ]
-                                                    ], 
-                                                    "sub_type": 11
-                                                }, 
-                                                {
-                                                    "arg_type": 100025, 
-                                                    "args_list": [
-                                                        [
-                                                            "PLAYER", 
-                                                            "玩家", 
-                                                            "local"
-                                                        ]
-                                                    ], 
-                                                    "sub_type": "VARIABLE"
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "idle1"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "walk"
-                                                    ], 
-                                                    "sub_type": 1
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "当前单位目标点", 
+                                                        "local"
+                                                    ]
                                                 }
                                             ], 
-                                            "op_arg": [
-                                                null
+                                            "sub_type": 19
+                                        }, 
+                                        {
+                                            "arg_type": 101015, 
+                                            "args_list": [
+                                                134259389
                                             ], 
-                                            "op_arg_enable": [
-                                                false
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100225, 
+                                            "args_list": [
+                                                0.0
                                             ], 
-                                            "sub_type": "727e1ef04e1211eeb68130d042e90e85"
+                                            "sub_type": 1
                                         }
                                     ], 
                                     "bp": false, 
-                                    "call_rt_arg_idxes": [], 
-                                    "element_id": 1299906630000002, 
-                                    "enable": false
+                                    "element_id": 2071384134899521, 
+                                    "enable": false, 
+                                    "op_arg": [
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false
+                                    ]
                                 }, 
                                 {
                                     "action_type": "CALL_TRIGGER_FUNC", 
@@ -551,275 +933,146 @@
                         }, 
                         {
                             "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1299906630000186, 
+                    "enable": true, 
+                    "fake_op": []
+                }, 
+                [
+                    1624853447, 
+                    "表现逻辑", 
+                    1299906630, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
                             "args_list": [
                                 {
-                                    "action_type": "IF_THEN_ELSE", 
                                     "args_list": [
                                         {
-                                            "arg_type": 100021, 
+                                            "arg_type": 100000, 
                                             "args_list": [
                                                 {
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100004, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100006, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "__tuple__": true, 
-                                                                            "items": [
-                                                                                "UNIT_ENTITY", 
-                                                                                "控制单位", 
-                                                                                "local"
-                                                                            ]
-                                                                        }
-                                                                    ], 
-                                                                    "sub_type": 11
-                                                                }
-                                                            ], 
-                                                            "sub_type": "UNIT_ENTITY_POINT"
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100004, 
-                                                            "args_list": [
-                                                                {
-                                                                    "__tuple__": true, 
-                                                                    "items": [
-                                                                        "POINT", 
-                                                                        "当前单位目标点", 
-                                                                        "local"
-                                                                    ]
-                                                                }
-                                                            ], 
-                                                            "sub_type": 19
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100211, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100000, 
-                                                                    "args_list": [
-                                                                        10.0
-                                                                    ], 
-                                                                    "sub_type": 1
-                                                                }
-                                                            ], 
-                                                            "sub_type": "CONST_CIRCULAR_SHAPE"
-                                                        }
-                                                    ], 
-                                                    "condition_type": "POINT_IN_SHAPE", 
-                                                    "element_id": 1299906630000275, 
-                                                    "enable": true
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "FLOAT", 
+                                                        "消费能量", 
+                                                        "local"
+                                                    ]
                                                 }
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100015, 
+                                            "args_list": [
+                                                ">"
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
-                                            "arg_type": 100022, 
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                0.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "FLOAT_COMPARE", 
+                                    "element_id": 1299906630178881, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
                                             "args_list": [
                                                 {
-                                                    "action_type": "FORCE_TRANSMIT_UNIT", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100006, 
-                                                            "args_list": [
-                                                                {
-                                                                    "__tuple__": true, 
-                                                                    "items": [
-                                                                        "UNIT_ENTITY", 
-                                                                        "控制单位", 
-                                                                        "local"
-                                                                    ]
-                                                                }
-                                                            ], 
-                                                            "sub_type": 11
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100004, 
-                                                            "args_list": [
-                                                                {
-                                                                    "__tuple__": true, 
-                                                                    "items": [
-                                                                        "POINT", 
-                                                                        "当前单位目标点", 
-                                                                        "local"
-                                                                    ]
-                                                                }
-                                                            ], 
-                                                            "sub_type": 19
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "element_id": 2071384134000022, 
-                                                    "enable": true, 
-                                                    "op_arg": [
-                                                        {
-                                                            "arg_type": 100001, 
-                                                            "args_list": [
-                                                                false
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }
-                                                    ], 
-                                                    "op_arg_enable": [
-                                                        true
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "插值点", 
+                                                        "local"
                                                     ]
                                                 }
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
-                                            "arg_type": 100022, 
+                                            "arg_type": 100004, 
                                             "args_list": [
                                                 {
-                                                    "action_type": "SET_VARIABLE", 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
                                                         {
-                                                            "arg_type": 100030, 
-                                                            "args_list": [
-                                                                {
-                                                                    "__tuple__": true, 
-                                                                    "items": [
-                                                                        "POINT", 
-                                                                        "插值点", 
-                                                                        "local"
-                                                                    ]
-                                                                }
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100004, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100004, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100006, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "__tuple__": true, 
-                                                                                    "items": [
-                                                                                        "UNIT_ENTITY", 
-                                                                                        "控制单位", 
-                                                                                        "local"
-                                                                                    ]
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": 11
-                                                                        }
-                                                                    ], 
-                                                                    "sub_type": "UNIT_ENTITY_POINT"
-                                                                }, 
-                                                                {
-                                                                    "arg_type": 100225, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100006, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "__tuple__": true, 
-                                                                                    "items": [
-                                                                                        "UNIT_ENTITY", 
-                                                                                        "控制单位", 
-                                                                                        "local"
-                                                                                    ]
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": 11
-                                                                        }
-                                                                    ], 
-                                                                    "sub_type": "UNIT_FACE_ANGLE"
-                                                                }, 
-                                                                {
-                                                                    "arg_type": 100000, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100000, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "arg_type": 100006, 
-                                                                                    "args_list": [
-                                                                                        {
-                                                                                            "__tuple__": true, 
-                                                                                            "items": [
-                                                                                                "UNIT_ENTITY", 
-                                                                                                "控制单位", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        }
-                                                                                    ], 
-                                                                                    "sub_type": 11
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100301, 
-                                                                                    "args_list": [
-                                                                                        "ATTR_RESULT"
-                                                                                    ], 
-                                                                                    "sub_type": 1
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100042, 
-                                                                                    "args_list": [
-                                                                                        "ori_speed"
-                                                                                    ], 
-                                                                                    "sub_type": 1
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": "GET_UNIT_ATTR"
-                                                                        }, 
-                                                                        {
-                                                                            "arg_type": 100017, 
-                                                                            "args_list": [
-                                                                                "*"
-                                                                            ], 
-                                                                            "sub_type": 1
-                                                                        }, 
-                                                                        {
-                                                                            "arg_type": 100000, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "arg_type": 100000, 
-                                                                                    "args_list": [
-                                                                                        1.0
-                                                                                    ], 
-                                                                                    "sub_type": 1
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100017, 
-                                                                                    "args_list": [
-                                                                                        "/"
-                                                                                    ], 
-                                                                                    "sub_type": 1
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100000, 
-                                                                                    "args_list": [
-                                                                                        [
-                                                                                            "FLOAT", 
-                                                                                            "游戏帧数", 
-                                                                                            "local"
-                                                                                        ]
-                                                                                    ], 
-                                                                                    "sub_type": 2
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": "ARITHMETIC_OPERATION"
-                                                                        }
-                                                                    ], 
-                                                                    "sub_type": "ARITHMETIC_OPERATION"
-                                                                }
-                                                            ], 
-                                                            "sub_type": "POINT_OFFSET_VECTOR_POINT"
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "控制单位", 
+                                                                "local"
+                                                            ]
                                                         }
                                                     ], 
-                                                    "bp": false, 
-                                                    "element_id": 1299906630000204, 
-                                                    "enable": true
+                                                    "sub_type": 11
+                                                }
+                                            ], 
+                                            "sub_type": "UNIT_ENTITY_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1299906630178911, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "插值点", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "POINT", 
+                                                                "插值点", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 19
                                                 }, 
                                                 {
-                                                    "action_type": "FORCE_TRANSMIT_UNIT", 
+                                                    "arg_type": 100225, 
                                                     "args_list": [
                                                         {
                                                             "arg_type": 100006, 
@@ -834,47 +1087,475 @@
                                                                 }
                                                             ], 
                                                             "sub_type": 11
+                                                        }
+                                                    ], 
+                                                    "sub_type": "UNIT_FACE_ANGLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "FLOAT", 
+                                                                "消费能量", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 2
+                                                }
+                                            ], 
+                                            "sub_type": "POINT_OFFSET_VECTOR_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1299906630178901, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "FLOAT", 
+                                                        "OffsetEnergy"
+                                                    ]
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "单位属性索引", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "FLOAT", 
+                                                                "OffsetEnergy"
+                                                            ]
                                                         }, 
                                                         {
-                                                            "arg_type": 100004, 
+                                                            "arg_type": 100002, 
                                                             "args_list": [
                                                                 {
                                                                     "__tuple__": true, 
                                                                     "items": [
-                                                                        "POINT", 
-                                                                        "插值点", 
+                                                                        "INTEGER", 
+                                                                        "单位属性索引", 
                                                                         "local"
                                                                     ]
                                                                 }
                                                             ], 
-                                                            "sub_type": 19
+                                                            "sub_type": 6
                                                         }
                                                     ], 
-                                                    "bp": false, 
-                                                    "element_id": 1299906630000200, 
-                                                    "enable": true, 
-                                                    "op_arg": [
+                                                    "sub_type": 2
+                                                }, 
+                                                {
+                                                    "arg_type": 100017, 
+                                                    "args_list": [
+                                                        "-"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
                                                         {
-                                                            "arg_type": 100001, 
-                                                            "args_list": [
-                                                                true
-                                                            ], 
-                                                            "sub_type": 1
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "FLOAT", 
+                                                                "消费能量", 
+                                                                "local"
+                                                            ]
                                                         }
                                                     ], 
-                                                    "op_arg_enable": [
-                                                        false
+                                                    "sub_type": 2
+                                                }
+                                            ], 
+                                            "sub_type": "ARITHMETIC_OPERATION"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1299906630178950, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "FORCE_TRANSMIT_UNIT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_ENTITY", 
+                                                        "控制单位", 
+                                                        "local"
                                                     ]
                                                 }
+                                            ], 
+                                            "sub_type": 11
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "插值点", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 19
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1299906630000200, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        true
+                                    ]
+                                }, 
+                                {
+                                    "action_type": "CREATE_DECO", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "插值点", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 19
+                                        }, 
+                                        {
+                                            "arg_type": 101015, 
+                                            "args_list": [
+                                                134259389
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100225, 
+                                            "args_list": [
+                                                0.0
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 1299906630000266, 
+                                    "element_id": 1299906630179178, 
                                     "enable": false, 
-                                    "fake_op": [
-                                        2
+                                    "op_arg": [
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false
+                                    ]
+                                }, 
+                                {
+                                    "action_type": "SEND_TO_ROLE_GROUP_TEXT_TIME", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "所剩能量："
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "FLOAT", 
+                                                                        "OffsetEnergy"
+                                                                    ]
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "单位属性索引", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": 2
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                2
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        false
+                                                    ], 
+                                                    "sub_type": "FLOAT_TO_STR_NEW"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                2.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1299906630178985, 
+                                    "enable": false
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "TRANS_UNIT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_ENTITY", 
+                                                        "控制单位", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 11
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "TargetPoint"
+                                                    ]
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "单位属性索引", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": 19
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 2071384134899608, 
+                                    "enable": false
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "FLOAT", 
+                                                        "OffsetEnergy"
+                                                    ]
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "单位属性索引", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                0.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1299906630179026, 
+                                    "enable": false
+                                }, 
+                                {
+                                    "action_type": "FORCE_TRANSMIT_UNIT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_ENTITY", 
+                                                        "控制单位", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 11
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "TargetPoint"
+                                                    ]
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "单位属性索引", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": 19
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1299906630178972, 
+                                    "enable": false, 
+                                    "op_arg": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg_enable": [
+                                        true
                                     ]
                                 }
                             ], 
@@ -882,7 +1563,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1299906630000186, 
+                    "element_id": 1299906630178867, 
                     "enable": true, 
                     "fake_op": [
                         2
@@ -927,7 +1608,11 @@
     "var_data": [
         {
             "FLOAT": {
+                "消费能量": 0.0, 
                 "游戏帧数": 30.0
+            }, 
+            "INTEGER": {
+                "单位属性索引": 0
             }, 
             "NEW_TIMER": {}, 
             "PLAYER": {
@@ -956,18 +1641,22 @@
             }
         }, 
         {
+            "单位属性索引": 0, 
             "当前单位目标点": 0, 
             "控制单位": 0, 
             "插值点": 0, 
+            "消费能量": 0, 
             "游戏帧数": 0, 
             "玩家": 0
         }, 
         [
             "控制单位", 
             "玩家", 
+            "消费能量", 
             "插值点", 
             "游戏帧数", 
-            "当前单位目标点"
+            "当前单位目标点", 
+            "单位属性索引"
         ]
     ]
 }

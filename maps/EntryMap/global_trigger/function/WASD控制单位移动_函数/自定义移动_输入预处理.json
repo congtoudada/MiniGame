@@ -583,13 +583,10 @@
                                 {
                                     "arg_type": 100002, 
                                     "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "INTEGER", 
-                                                "MapCols"
-                                            ]
-                                        }
+                                        [
+                                            "INTEGER", 
+                                            "MapCols"
+                                        ]
                                     ], 
                                     "sub_type": 6
                                 }

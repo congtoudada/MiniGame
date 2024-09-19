@@ -33,8 +33,8 @@
                 "__tuple__": true, 
                 "items": [
                     [
-                        -11, 
-                        601295421
+                        14, 
+                        1803886264
                     ], 
                     [
                         0, 
@@ -110,7 +110,7 @@
             "is_ortho": false, 
             "name": "\u521d\u59cb\u955c\u5934", 
             "ortho_scale": 1.0, 
-            "pitch": 0.9075712161138654, 
+            "pitch": 1.04719755705446, 
             "placed_lock": false, 
             "placed_visibility": true, 
             "roll": 0.0, 

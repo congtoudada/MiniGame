@@ -287,51 +287,6 @@
                             "sub_type": "VARIABLE"
                         }
                     ], 
-                    "op_arg": [], 
-                    "op_arg_enable": [], 
-                    "sub_type": "6b88d3c076ed11ee976630d042e90e85"
-                }
-            ], 
-            "bp": false, 
-            "call_rt_arg_idxes": [], 
-            "element_id": 224763968000112, 
-            "enable": false
-        }, 
-        {
-            "action_type": "CALL_TRIGGER_FUNC", 
-            "args_list": [
-                {
-                    "arg_type": 100177, 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [
-                                {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "UNIT_ENTITY", 
-                                        "玩家单位", 
-                                        "local"
-                                    ]
-                                }
-                            ], 
-                            "sub_type": 11
-                        }, 
-                        {
-                            "arg_type": 100025, 
-                            "args_list": [
-                                {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "PLAYER", 
-                                        "玩家", 
-                                        "local"
-                                    ]
-                                }
-                            ], 
-                            "sub_type": "VARIABLE"
-                        }
-                    ], 
                     "op_arg": [
                         null
                     ], 
@@ -529,6 +484,154 @@
                 false, 
                 false
             ]
+        }, 
+        {
+            "action_type": "SET_FOLLOW_PLACER_ENBALE_INERTIAL", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "玩家", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 224763968949665, 
+            "enable": true, 
+            "op_arg": [
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        100.0
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "SET_ENTITY_KV", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "玩家单位", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "PosX"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 224763968949699, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_ENTITY_KV", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "玩家单位", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "PosY"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 224763968949708, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_MOVER_COLLISION_RADIUS", 
+            "args_list": [
+                {
+                    "arg_type": 100263, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "玩家单位", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 11
+                        }
+                    ], 
+                    "sub_type": "GET_UNIT_MOVER"
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        0.0
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 224763968949722, 
+            "enable": true
         }, 
         {
             "action_type": 400342, 

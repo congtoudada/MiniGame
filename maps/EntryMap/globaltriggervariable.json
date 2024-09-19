@@ -2,13 +2,16 @@
     "variable_dict": {
         "BOOLEAN": {}, 
         "DAMAGE_TYPE": {}, 
-        "FLOAT": {}, 
+        "DECO_ENTITY": {}, 
+        "FLOAT": {
+            "MapColInterval": 316.0, 
+            "MapRowInterval": 400.0, 
+            "OffsetEnergy": 0.0
+        }, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0, 
-            "MapColInterval": 316, 
-            "MapCols": 6, 
-            "MapRowInterval": 400, 
-            "MapRows": 6, 
+            "MapCols": 10, 
+            "MapRows": 10, 
             "WASD_\u7f13\u5b58\u8f93\u5165": 0
         }, 
         "NEW_TIMER": {}, 
@@ -21,6 +24,10 @@
                     0
                 ]
             }
+        }, 
+        "PROJECTILE_ENTITY": {
+            "CurrentFX1": 0, 
+            "CurrentFX2": 0
         }, 
         "STRING": {
             "CurrentMap": ""
@@ -120,15 +127,39 @@
                 "TargetPoint", 
                 "TargetPoint"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "OffsetEnergy", 
+                "OffsetEnergy"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "CurrentFX1", 
+                "CurrentFX1"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "CurrentFX2", 
+                "CurrentFX2"
+            ]
         }
     ], 
     "variable_length_dict": {
+        "CurrentFX1": 10, 
+        "CurrentFX2": 10, 
         "CurrentMap": 10, 
         "GLOBAL_BAG_MAX_NUM": 0, 
         "MapColInterval": 0, 
         "MapCols": 0, 
         "MapRowInterval": 0, 
         "MapRows": 0, 
+        "OffsetEnergy": 10, 
         "TargetPoint": 10, 
         "UI_Manager": 0, 
         "WASD_\u7f13\u5b58\u8f93\u5165": 0, 

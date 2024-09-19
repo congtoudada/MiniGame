@@ -28,16 +28,28 @@
                         {
                             "arg_type": 100002, 
                             "args_list": [
-                                6
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "MapRows"
+                                    ]
+                                }
                             ], 
-                            "sub_type": 1
+                            "sub_type": 6
                         }, 
                         {
                             "arg_type": 100002, 
                             "args_list": [
-                                6
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "MapCols"
+                                    ]
+                                }
                             ], 
-                            "sub_type": 1
+                            "sub_type": 6
                         }
                     ], 
                     "op_arg": [], 

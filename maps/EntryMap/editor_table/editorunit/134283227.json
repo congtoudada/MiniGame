@@ -166,6 +166,30 @@
     "keep_target": true, 
     "key": 134283227, 
     "kv": {
+        "PosX": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "PosX", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 1, 
+            "type": 2, 
+            "value": 1
+        }, 
+        "PosY": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "PosY", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 2, 
+            "type": 2, 
+            "value": 1
+        }, 
         "\u7d22\u5f15": {
             "annotation": "", 
             "desc": "", 
@@ -200,7 +224,7 @@
     "name": -2080415504, 
     "need_preview_billboard": true, 
     "ori_bits": 0, 
-    "ori_speed": 10.0, 
+    "ori_speed": 5.0, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": {
         "__tuple__": true, 
@@ -243,7 +267,7 @@
     "reward_exp": 5, 
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
-    "rotate_speed": 19.42, 
+    "rotate_speed": 9999.0, 
     "sell_list": {
         "__tuple__": true, 
         "items": []
