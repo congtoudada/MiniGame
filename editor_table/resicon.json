@@ -1,1 +1,10 @@
-{}
+{
+    "ui/134243634": {
+        "default_editor_id": 134243634, 
+        "describe": "", 
+        "key": "ui/134243634", 
+        "name": "MapleStory2-Screen-109-1", 
+        "path": "ui/134243634", 
+        "uid": "res_icon_ui/134243634"
+    }
+}
