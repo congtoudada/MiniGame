@@ -3,6 +3,53 @@
     "anim_data": {}, 
     "children": [
         {
+            "cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    316.0, 
+                    53.0, 
+                    316.0, 
+                    53.0
+                ]
+            }, 
+            "children": [], 
+            "event_list": [], 
+            "image": 904075, 
+            "is_scale9_enable": true, 
+            "name": "image_4", 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0, 
+                    50.0, 
+                    50.0, 
+                    1, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1920.0, 
+                    1080.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "5c911304-500b-4d63-80f3-0c209411e213"
+        }, 
+        {
+            "cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    418.0, 
+                    177.0, 
+                    418.0, 
+                    177.0
+                ]
+            }, 
             "children": [], 
             "event_list": [], 
             "image": 106331, 
@@ -43,7 +90,7 @@
             "normal_text": {
                 "__tuple__": true, 
                 "items": [
-                    "Continue", 
+                    "\u91cd\u8bd5", 
                     false
                 ]
             }, 
@@ -66,6 +113,46 @@
             ], 
             "type": 1, 
             "uid": "6ed4113f-80d5-49b4-9d95-28c66862295e"
+        }, 
+        {
+            "children": [], 
+            "event_list": [
+                {
+                    "action_list": [], 
+                    "enabled": true, 
+                    "name": "Defeat_Back_Hall", 
+                    "sound_id": null, 
+                    "type": 11
+                }
+            ], 
+            "name": "button_8_1", 
+            "normal_picture": 100372, 
+            "normal_text": {
+                "__tuple__": true, 
+                "items": [
+                    "\u8fd4\u56de\u4e3b\u83dc\u5355", 
+                    false
+                ]
+            }, 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    962.999, 
+                    290.5006, 
+                    50.1562, 
+                    26.8982, 
+                    1, 
+                    1
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": [
+                246.0, 
+                63.0
+            ], 
+            "type": 1, 
+            "uid": "7e2a3847-354c-4347-b18b-6631c37ba11a"
         }
     ], 
     "name": "loss", 

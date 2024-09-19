@@ -2505,7 +2505,7 @@
         {
             "args_list": [], 
             "element_id": 786112514000003, 
-            "enable": true, 
+            "enable": false, 
             "event_type": "INIT_FINISHED"
         }
     ], 

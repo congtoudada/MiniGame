@@ -96,7 +96,7 @@
     "8192": {}, 
     "32768": {
         "9999": {
-            "camera_dist": 25.0, 
+            "camera_dist": 30.0, 
             "far": 1000.0, 
             "focus_max_dist": 400.0, 
             "focus_min_dist": 10.0, 

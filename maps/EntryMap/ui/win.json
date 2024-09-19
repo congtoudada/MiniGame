@@ -3,6 +3,44 @@
     "anim_data": {}, 
     "children": [
         {
+            "cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    640.0, 
+                    360.0, 
+                    640.0, 
+                    360.0
+                ]
+            }, 
+            "children": [], 
+            "event_list": [], 
+            "image": 131201, 
+            "is_scale9_enable": true, 
+            "name": "image_4", 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0, 
+                    50.0, 
+                    50.0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1920.0, 
+                    1080.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "c90d4092-01e4-4910-b214-99a7431d1ff5"
+        }, 
+        {
             "children": [], 
             "event_list": [], 
             "image": 106330, 
@@ -39,11 +77,11 @@
                 }
             ], 
             "name": "button_6", 
-            "normal_picture": 100372, 
+            "normal_picture": 131166, 
             "normal_text": {
                 "__tuple__": true, 
                 "items": [
-                    "Continue", 
+                    "\u4e0b\u4e00\u5173", 
                     false
                 ]
             }, 
@@ -60,12 +98,66 @@
             }, 
             "prefab_sub_key": null, 
             "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    246.0, 
+                    63.0
+                ]
+            }, 
             "touch_scale": [
                 0.9, 
                 0.9
             ], 
             "type": 1, 
             "uid": "c0d8021a-a41c-4aad-a516-ecdf03e74cb9"
+        }, 
+        {
+            "children": [], 
+            "event_list": [
+                {
+                    "action_list": [], 
+                    "enabled": true, 
+                    "name": "Victory_Back_Hall", 
+                    "sound_id": null, 
+                    "type": 11
+                }
+            ], 
+            "name": "button_6_1", 
+            "normal_picture": 131166, 
+            "normal_text": {
+                "__tuple__": true, 
+                "items": [
+                    "\u8fd4\u56de\u4e3b\u83dc\u5355", 
+                    false
+                ]
+            }, 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    325.0001, 
+                    50.0, 
+                    30.0926, 
+                    1, 
+                    1
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    246.0, 
+                    63.0
+                ]
+            }, 
+            "touch_scale": [
+                0.9, 
+                0.9
+            ], 
+            "type": 1, 
+            "uid": "7cd9513a-e1f5-48d2-967c-01cf0a887760"
         }
     ], 
     "name": "win", 

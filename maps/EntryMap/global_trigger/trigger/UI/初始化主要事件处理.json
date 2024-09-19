@@ -123,7 +123,7 @@
         {
             "args_list": [], 
             "element_id": 333193219000019, 
-            "enable": true, 
+            "enable": false, 
             "event_type": "INIT_FINISHED"
         }
     ], 
