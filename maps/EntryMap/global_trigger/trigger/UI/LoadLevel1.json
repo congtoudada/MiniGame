@@ -1,0 +1,91 @@
+{
+    "action": [
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "MapRows"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "MapCols"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "813ed158759011ef91a0a39d81ca58d2"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 1875570739271055, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "button_level1_click"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1601859651000003, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }
+    ], 
+    "group_id": "k8RTXXZmEe+h+E9Bl-Py-N", 
+    "p_trigger_id": null, 
+    "trigger_id": 1601859651, 
+    "trigger_name": "LoadLevel1", 
+    "valid": true, 
+    "var_data": [
+        {
+            "UNIT_ENTITY": {
+                "玩家单位": 0
+            }
+        }, 
+        {
+            "玩家单位": 0
+        }, 
+        [
+            "玩家单位"
+        ]
+    ]
+}

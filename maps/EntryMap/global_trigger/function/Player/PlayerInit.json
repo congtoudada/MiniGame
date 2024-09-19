@@ -473,7 +473,7 @@
             ], 
             "bp": false, 
             "element_id": 224763968000188, 
-            "enable": true, 
+            "enable": false, 
             "op_arg": [
                 null, 
                 null, 
@@ -512,7 +512,7 @@
             ], 
             "bp": false, 
             "element_id": 224763968949665, 
-            "enable": true, 
+            "enable": false, 
             "op_arg": [
                 {
                     "arg_type": 100000, 
@@ -596,6 +596,97 @@
             ], 
             "bp": false, 
             "element_id": 224763968949708, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_ENTITY_KV", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "玩家单位", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "是否满足可通关条件"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 224763968949730, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100028, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "BOOLEAN", 
+                                "可通关玩家"
+                            ]
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UNIT_ENTITY", 
+                                                "玩家单位", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 11
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "索引"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_INTEGER_KV"
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1405866057000033, 
             "enable": true
         }, 
         [
@@ -772,6 +863,7 @@
     "valid": true, 
     "var_data": [
         {
+            "INTEGER": {}, 
             "PLAYER": {
                 "玩家": 0
             }, 

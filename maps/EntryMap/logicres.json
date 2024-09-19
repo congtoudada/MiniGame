@@ -90,6 +90,170 @@
                     1952985088
                 ]
             }
+        }, 
+        "10020": {
+            "color": null, 
+            "height": {
+                "__tuple__": true, 
+                "items": [
+                    7, 
+                    256090624
+                ]
+            }, 
+            "id": 10020, 
+            "name": "\u901a\u5173\u533a\u57df", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        13, 
+                        333111296
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        2517810688
+                    ]
+                ]
+            }, 
+            "sound": null, 
+            "type": 2048, 
+            "weather": 0, 
+            "width": {
+                "__tuple__": true, 
+                "items": [
+                    2, 
+                    1944092672
+                ]
+            }
+        }, 
+        "10027": {
+            "color": null, 
+            "height": {
+                "__tuple__": true, 
+                "items": [
+                    2, 
+                    1265761280
+                ]
+            }, 
+            "id": 10027, 
+            "name": "\u94a5\u5319\u533a\u57df1", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -9, 
+                        912416768
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        3744747520
+                    ]
+                ]
+            }, 
+            "sound": null, 
+            "type": 2048, 
+            "weather": 0, 
+            "width": {
+                "__tuple__": true, 
+                "items": [
+                    2, 
+                    67002368
+                ]
+            }
+        }, 
+        "10028": {
+            "color": null, 
+            "height": {
+                "__tuple__": true, 
+                "items": [
+                    2, 
+                    2265073664
+                ]
+            }, 
+            "id": 10028, 
+            "name": "\u94a5\u5319\u533a\u57df2", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -16, 
+                        3634167808
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        4, 
+                        3046103040
+                    ]
+                ]
+            }, 
+            "sound": null, 
+            "type": 2048, 
+            "weather": 0, 
+            "width": {
+                "__tuple__": true, 
+                "items": [
+                    2, 
+                    202842112
+                ]
+            }
+        }, 
+        "10029": {
+            "color": null, 
+            "height": {
+                "__tuple__": true, 
+                "items": [
+                    -1, 
+                    4252017623
+                ]
+            }, 
+            "id": 10029, 
+            "name": "\u77e9\u5f62\u533a\u57df", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        15, 
+                        1844166656
+                    ], 
+                    [
+                        -1, 
+                        4294965248
+                    ], 
+                    [
+                        2, 
+                        3677669376
+                    ]
+                ]
+            }, 
+            "sound": null, 
+            "type": 2048, 
+            "weather": 0, 
+            "width": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    42949673
+                ]
+            }
         }
     }, 
     "4096": {}, 
@@ -123,7 +287,14 @@
     "131072": {}, 
     "262144": {}, 
     "1048576": {}, 
-    "2097152": {}, 
+    "2097152": {
+        "10025": {
+            "id": 10025, 
+            "name": "\u955c\u5934\u65f6\u95f4\u8f74\u52a8\u753b1", 
+            "raw_camline_id": 4, 
+            "type": 2097152
+        }
+    }, 
     "4194304": {}, 
     "134217728": {}
 }

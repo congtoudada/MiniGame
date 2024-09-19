@@ -190,6 +190,18 @@
             "type": 2, 
             "value": 1
         }, 
+        "\u662f\u5426\u6ee1\u8db3\u53ef\u901a\u5173\u6761\u4ef6": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 4, 
+            "key": "\u662f\u5426\u6ee1\u8db3\u53ef\u901a\u5173\u6761\u4ef6", 
+            "prop_cls": "PBool", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 3, 
+            "type": 3, 
+            "value": false
+        }, 
         "\u7d22\u5f15": {
             "annotation": "", 
             "desc": "", 

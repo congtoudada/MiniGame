@@ -1,4 +1,7 @@
 {
-    "GetRandomDirString.json": 1, 
+    "CheckAndDoFail.json": 3, 
+    "CheckAndDoSuccess.json": 1, 
+    "CheckSingleSuccess.json": 2, 
+    "GetRandomDirString.json": 4, 
     "LoadMap.json": 0
 }

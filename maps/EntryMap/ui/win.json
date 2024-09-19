@@ -71,12 +71,12 @@
                 {
                     "action_list": [], 
                     "enabled": true, 
-                    "name": "Victory_Back_Hall", 
-                    "sound_id": null, 
-                    "type": 11
+                    "name": "victory_next", 
+                    "sound_id": 110475, 
+                    "type": 30
                 }
             ], 
-            "name": "button_6", 
+            "name": "button_victory_next", 
             "normal_picture": 131166, 
             "normal_text": {
                 "__tuple__": true, 
@@ -118,12 +118,12 @@
                 {
                     "action_list": [], 
                     "enabled": true, 
-                    "name": "Victory_Back_Hall", 
-                    "sound_id": null, 
-                    "type": 11
+                    "name": "victory_back", 
+                    "sound_id": 110475, 
+                    "type": 30
                 }
             ], 
-            "name": "button_6_1", 
+            "name": "button_victory_back", 
             "normal_picture": 131166, 
             "normal_text": {
                 "__tuple__": true, 
@@ -158,6 +158,64 @@
             ], 
             "type": 1, 
             "uid": "7cd9513a-e1f5-48d2-967c-01cf0a887760"
+        }, 
+        {
+            "alignment": {
+                "__tuple__": true, 
+                "items": [
+                    2, 
+                    8
+                ]
+            }, 
+            "children": [], 
+            "event_list": [], 
+            "font": {
+                "__tuple__": true, 
+                "items": [
+                    "MSYH", 
+                    48
+                ]
+            }, 
+            "font_color": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0, 
+                    254
+                ]
+            }, 
+            "name": "Text_All_Success", 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    978.048, 
+                    157.424, 
+                    50.94, 
+                    14.5763, 
+                    1, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1809.0909, 
+                    100.0
+                ]
+            }, 
+            "text": {
+                "__tuple__": true, 
+                "items": [
+                    "\u606d\u559c\u4f60\u901a\u5173\u5b8c\u4e86\u6700\u7ec8\u5173\u5361\uff01", 
+                    false
+                ]
+            }, 
+            "type": 3, 
+            "uid": "3de85857-b315-4f3c-b1e8-34f2ae40e462", 
+            "visible": false
         }
     ], 
     "name": "win", 

@@ -6,15 +6,15 @@
             "cap_insets": {
                 "__tuple__": true, 
                 "items": [
-                    316.0, 
-                    53.0, 
-                    316.0, 
-                    53.0
+                    640.0, 
+                    360.0, 
+                    640.0, 
+                    360.0
                 ]
             }, 
             "children": [], 
             "event_list": [], 
-            "image": 904075, 
+            "image": 905499, 
             "is_scale9_enable": true, 
             "name": "image_4", 
             "pos_data": {
@@ -80,12 +80,12 @@
                 {
                     "action_list": [], 
                     "enabled": true, 
-                    "name": "Defeat_Back_Hall", 
-                    "sound_id": null, 
-                    "type": 11
+                    "name": "Defeat_Retry", 
+                    "sound_id": 110475, 
+                    "type": 30
                 }
             ], 
-            "name": "button_8", 
+            "name": "button_defeat_Retry", 
             "normal_picture": 100372, 
             "normal_text": {
                 "__tuple__": true, 
@@ -120,12 +120,12 @@
                 {
                     "action_list": [], 
                     "enabled": true, 
-                    "name": "Defeat_Back_Hall", 
-                    "sound_id": null, 
-                    "type": 11
+                    "name": "Defeat_Back", 
+                    "sound_id": 110475, 
+                    "type": 30
                 }
             ], 
-            "name": "button_8_1", 
+            "name": "button_defeat_Back", 
             "normal_picture": 100372, 
             "normal_text": {
                 "__tuple__": true, 

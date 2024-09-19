@@ -1,6 +1,9 @@
 {
-    "初始化主要事件处理.json": 2, 
-    "初始化数据.json": 1, 
-    "初始化更新事件.json": 0, 
-    "初始化界面事件.json": 3
+    "LoadLevel1.json": 0, 
+    "LoadLevel2.json": 1, 
+    "LoadLevel3.json": 2, 
+    "LoadLevel4.json": 3, 
+    "下一关.json": 4, 
+    "返回主界面.json": 6, 
+    "重试.json": 5
 }

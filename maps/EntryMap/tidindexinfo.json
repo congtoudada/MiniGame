@@ -5,16 +5,46 @@
         "item_key": 134283227, 
         "prop_key": "name"
     }, 
+    "-1316233276": {
+        "editor_type": "editor_destructible", 
+        "index_type": "object_editor", 
+        "item_key": 134243280, 
+        "prop_key": "name"
+    }, 
+    "-1176579167": {
+        "editor_type": "editor_decoration", 
+        "index_type": "object_editor", 
+        "item_key": 134251623, 
+        "prop_key": "name"
+    }, 
     "-1114609738": {
         "editor_type": "editor_decoration", 
         "index_type": "object_editor", 
         "item_key": 134228324, 
         "prop_key": "name"
     }, 
+    "-904825834": {
+        "editor_type": "editor_destructible", 
+        "index_type": "object_editor", 
+        "item_key": 134242466, 
+        "prop_key": "name"
+    }, 
     "-848607257": {
         "editor_type": "projectile_all", 
         "index_type": "object_editor", 
         "item_key": 134221888, 
+        "prop_key": "name"
+    }, 
+    "-840185341": {
+        "editor_type": "editor_destructible", 
+        "index_type": "object_editor", 
+        "item_key": 134253876, 
+        "prop_key": "name"
+    }, 
+    "-654228592": {
+        "editor_type": "editor_decoration", 
+        "index_type": "object_editor", 
+        "item_key": 134255132, 
         "prop_key": "name"
     }, 
     "-366357170": {
@@ -45,6 +75,12 @@
         "editor_type": "projectile_all", 
         "index_type": "object_editor", 
         "item_key": 134232140, 
+        "prop_key": "name"
+    }, 
+    "1931536489": {
+        "editor_type": "editor_decoration", 
+        "index_type": "object_editor", 
+        "item_key": 134236075, 
         "prop_key": "name"
     }
 }

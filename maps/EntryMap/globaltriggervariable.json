@@ -1,6 +1,8 @@
 {
     "variable_dict": {
-        "BOOLEAN": {}, 
+        "BOOLEAN": {
+            "\u53ef\u901a\u5173\u73a9\u5bb6": false
+        }, 
         "DAMAGE_TYPE": {}, 
         "DECO_ENTITY": {}, 
         "FLOAT": {
@@ -13,7 +15,9 @@
             "MapCols": 10, 
             "MapRows": 10, 
             "WASD_\u7f13\u5b58\u8f93\u5165": 0, 
-            "\u5173\u5361\u5012\u8ba1\u65f6": 0
+            "\u5173\u5361\u5012\u8ba1\u65f6": 0, 
+            "\u5f53\u524d\u5173\u5361": 1, 
+            "\u6e38\u620f\u72b6\u6001": 0
         }, 
         "NEW_TIMER": {
             "\u5173\u5361\u5012\u8ba1\u65f6\u8ba1\u65f6\u5668": -1
@@ -165,6 +169,27 @@
                 "\u5173\u5361\u5012\u8ba1\u65f6\u8ba1\u65f6\u5668", 
                 "\u5173\u5361\u5012\u8ba1\u65f6\u8ba1\u65f6\u5668"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u6e38\u620f\u72b6\u6001", 
+                "\u6e38\u620f\u72b6\u6001"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u53ef\u901a\u5173\u73a9\u5bb6", 
+                "\u53ef\u901a\u5173\u73a9\u5bb6"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5f53\u524d\u5173\u5361", 
+                "\u5f53\u524d\u5173\u5361"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -182,7 +207,10 @@
         "WASD_\u7f13\u5b58\u8f93\u5165": 0, 
         "\u5173\u5361\u5012\u8ba1\u65f6": 0, 
         "\u5173\u5361\u5012\u8ba1\u65f6\u8ba1\u65f6\u5668": 0, 
+        "\u53ef\u901a\u5173\u73a9\u5bb6": 10, 
         "\u5e78\u5b58\u8005_\u4e3b\u63a7\u5355\u4f4d": 0, 
+        "\u5f53\u524d\u5173\u5361": 0, 
+        "\u6e38\u620f\u72b6\u6001": 0, 
         "\u73a9\u5bb61\u5355\u4f4d": 0, 
         "\u73a9\u5bb62\u5355\u4f4d": 0
     }

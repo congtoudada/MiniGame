@@ -1,7 +1,3 @@
 {
-    "GameRoot.json": 0, 
-    "LoadLevel1.json": 1, 
-    "LoadLevel2.json": 2, 
-    "LoadLevel3.json": 3, 
-    "LoadLevel4.json": 4
+    "GameRoot.json": 0
 }

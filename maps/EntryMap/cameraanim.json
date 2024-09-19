@@ -1,1 +1,218 @@
-{}
+{
+    "4": {
+        "anim_id": 4, 
+        "anim_name": null, 
+        "enabled": true, 
+        "return_first_frame": false, 
+        "track_data": {
+            "57": {
+                "frame_data": {
+                    "0": {
+                        "curve_id": null, 
+                        "curve_type": 0, 
+                        "frame_type": -1, 
+                        "frame_value": null, 
+                        "value_type": -1
+                    }, 
+                    "60": {
+                        "curve_id": null, 
+                        "curve_type": 0, 
+                        "frame_type": 0, 
+                        "frame_value": null, 
+                        "value_type": null
+                    }
+                }, 
+                "is_loop": false, 
+                "sub_tracks": {
+                    "58": {
+                        "frame_data": {
+                            "0": {
+                                "curve_id": null, 
+                                "curve_type": 0, 
+                                "frame_type": -1, 
+                                "frame_value": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        9.77, 
+                                        0.0, 
+                                        2.72
+                                    ]
+                                }, 
+                                "value_type": 2
+                            }, 
+                            "60": {
+                                "curve_id": null, 
+                                "curve_type": 2, 
+                                "frame_type": 1, 
+                                "frame_value": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        0.0, 
+                                        0.0, 
+                                        0.0
+                                    ]
+                                }, 
+                                "value_type": 2
+                            }
+                        }, 
+                        "is_loop": false, 
+                        "sub_tracks": {}, 
+                        "track_desc": "code_attr_camera_focus", 
+                        "track_id": 58, 
+                        "track_name": "Focus", 
+                        "track_type": 1
+                    }, 
+                    "59": {
+                        "frame_data": {
+                            "0": {
+                                "curve_id": null, 
+                                "curve_type": 0, 
+                                "frame_type": -1, 
+                                "frame_value": 22.0, 
+                                "value_type": 1
+                            }, 
+                            "60": {
+                                "curve_id": null, 
+                                "curve_type": 2, 
+                                "frame_type": 1, 
+                                "frame_value": 30.0, 
+                                "value_type": 1
+                            }
+                        }, 
+                        "is_loop": false, 
+                        "sub_tracks": {}, 
+                        "track_desc": "code_attr_camera_dist", 
+                        "track_id": 59, 
+                        "track_name": "Distance", 
+                        "track_type": 2
+                    }, 
+                    "60": {
+                        "frame_data": {
+                            "0": {
+                                "curve_id": null, 
+                                "curve_type": 0, 
+                                "frame_type": -1, 
+                                "frame_value": 0.7679448751732707, 
+                                "value_type": 1
+                            }, 
+                            "60": {
+                                "curve_id": null, 
+                                "curve_type": 2, 
+                                "frame_type": 1, 
+                                "frame_value": 1.04719755705446, 
+                                "value_type": 1
+                            }
+                        }, 
+                        "is_loop": false, 
+                        "sub_tracks": {}, 
+                        "track_desc": "code_attr_camera_pitch", 
+                        "track_id": 60, 
+                        "track_name": "Pitch", 
+                        "track_type": 3
+                    }, 
+                    "61": {
+                        "frame_data": {
+                            "0": {
+                                "curve_id": null, 
+                                "curve_type": 0, 
+                                "frame_type": -1, 
+                                "frame_value": 0.0, 
+                                "value_type": 1
+                            }, 
+                            "60": {
+                                "curve_id": null, 
+                                "curve_type": 2, 
+                                "frame_type": 1, 
+                                "frame_value": 0.0, 
+                                "value_type": 1
+                            }
+                        }, 
+                        "is_loop": false, 
+                        "sub_tracks": {}, 
+                        "track_desc": "code_attr_camera_roll", 
+                        "track_id": 61, 
+                        "track_name": "Roll", 
+                        "track_type": 4
+                    }, 
+                    "62": {
+                        "frame_data": {
+                            "0": {
+                                "curve_id": null, 
+                                "curve_type": 0, 
+                                "frame_type": -1, 
+                                "frame_value": 1.3227850475814193, 
+                                "value_type": 1
+                            }, 
+                            "60": {
+                                "curve_id": null, 
+                                "curve_type": 2, 
+                                "frame_type": 1, 
+                                "frame_value": 0.0, 
+                                "value_type": 1
+                            }
+                        }, 
+                        "is_loop": false, 
+                        "sub_tracks": {}, 
+                        "track_desc": "code_attr_camera_yaw", 
+                        "track_id": 62, 
+                        "track_name": "Yaw", 
+                        "track_type": 5
+                    }, 
+                    "63": {
+                        "frame_data": {
+                            "0": {
+                                "curve_id": null, 
+                                "curve_type": 0, 
+                                "frame_type": -1, 
+                                "frame_value": 55.0, 
+                                "value_type": 1
+                            }, 
+                            "60": {
+                                "curve_id": null, 
+                                "curve_type": 2, 
+                                "frame_type": 1, 
+                                "frame_value": 55.0, 
+                                "value_type": 1
+                            }
+                        }, 
+                        "is_loop": false, 
+                        "sub_tracks": {}, 
+                        "track_desc": "code_attr_camera_fov", 
+                        "track_id": 63, 
+                        "track_name": "Fov", 
+                        "track_type": 6
+                    }, 
+                    "64": {
+                        "frame_data": {
+                            "0": {
+                                "curve_id": null, 
+                                "curve_type": 0, 
+                                "frame_type": -1, 
+                                "frame_value": 1000.0, 
+                                "value_type": 1
+                            }, 
+                            "60": {
+                                "curve_id": null, 
+                                "curve_type": 2, 
+                                "frame_type": 1, 
+                                "frame_value": 1000.0, 
+                                "value_type": 1
+                            }
+                        }, 
+                        "is_loop": false, 
+                        "sub_tracks": {}, 
+                        "track_desc": "code_attr_camera_far", 
+                        "track_id": 64, 
+                        "track_name": "FarClipping", 
+                        "track_type": 7
+                    }
+                }, 
+                "track_desc": "code_camline", 
+                "track_id": 57, 
+                "track_name": "Camera", 
+                "track_type": 0
+            }
+        }, 
+        "use_game_last_frame": false
+    }
+}
