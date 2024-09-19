@@ -1,0 +1,72 @@
+{
+    "adapt_mode": 2, 
+    "anim_data": {}, 
+    "children": [
+        {
+            "adapter_option": [
+                true, 
+                true, 
+                true, 
+                true, 
+                166.0, 
+                814.0, 
+                591.195, 
+                591.195
+            ], 
+            "alignment": {
+                "__tuple__": true, 
+                "items": [
+                    2, 
+                    8
+                ]
+            }, 
+            "children": [], 
+            "event_list": [], 
+            "font": {
+                "__tuple__": true, 
+                "items": [
+                    "HKYuanW7", 
+                    32
+                ]
+            }, 
+            "name": "CountDownLabel", 
+            "open_adapter": true, 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    864.0, 
+                    50.0, 
+                    80.0, 
+                    1, 
+                    1
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    737.61, 
+                    100.0
+                ]
+            }, 
+            "text": {
+                "__tuple__": true, 
+                "items": [
+                    "\u5173\u5361\u5012\u8ba1\u65f6\uff1a30", 
+                    false
+                ]
+            }, 
+            "type": 3, 
+            "uid": "e488f80a-36fd-45d1-a685-8858e98c4f6c"
+        }
+    ], 
+    "name": "CountDownPanel", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "91f1c79c-98c4-43ef-941b-8d6d078bcae8", 
+    "visible": false, 
+    "zorder": 400
+}

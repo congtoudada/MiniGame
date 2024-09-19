@@ -12,9 +12,12 @@
             "GLOBAL_BAG_MAX_NUM": 0, 
             "MapCols": 10, 
             "MapRows": 10, 
-            "WASD_\u7f13\u5b58\u8f93\u5165": 0
+            "WASD_\u7f13\u5b58\u8f93\u5165": 0, 
+            "\u5173\u5361\u5012\u8ba1\u65f6": 0
         }, 
-        "NEW_TIMER": {}, 
+        "NEW_TIMER": {
+            "\u5173\u5361\u5012\u8ba1\u65f6\u8ba1\u65f6\u5668": -1
+        }, 
         "POINT": {
             "TargetPoint": {
                 "__tuple__": true, 
@@ -148,6 +151,20 @@
                 "CurrentFX2", 
                 "CurrentFX2"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5173\u5361\u5012\u8ba1\u65f6", 
+                "\u5173\u5361\u5012\u8ba1\u65f6"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5173\u5361\u5012\u8ba1\u65f6\u8ba1\u65f6\u5668", 
+                "\u5173\u5361\u5012\u8ba1\u65f6\u8ba1\u65f6\u5668"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -163,6 +180,8 @@
         "TargetPoint": 10, 
         "UI_Manager": 0, 
         "WASD_\u7f13\u5b58\u8f93\u5165": 0, 
+        "\u5173\u5361\u5012\u8ba1\u65f6": 0, 
+        "\u5173\u5361\u5012\u8ba1\u65f6\u8ba1\u65f6\u5668": 0, 
         "\u5e78\u5b58\u8005_\u4e3b\u63a7\u5355\u4f4d": 0, 
         "\u73a9\u5bb61\u5355\u4f4d": 0, 
         "\u73a9\u5bb62\u5355\u4f4d": 0
