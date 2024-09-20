@@ -1401,139 +1401,6 @@
                                     "enable": false
                                 }, 
                                 [
-                                    1616449025, 
-                                    "胜利判断", 
-                                    1299906630, 
-                                    "action_type"
-                                ], 
-                                {
-                                    "action_type": "IF_THEN_ELSE", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100021, 
-                                            "args_list": [
-                                                {
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100004, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100006, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "__tuple__": true, 
-                                                                            "items": [
-                                                                                "UNIT_ENTITY", 
-                                                                                "控制单位", 
-                                                                                "local"
-                                                                            ]
-                                                                        }
-                                                                    ], 
-                                                                    "sub_type": 11
-                                                                }
-                                                            ], 
-                                                            "sub_type": "UNIT_ENTITY_POINT"
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100004, 
-                                                            "args_list": [
-                                                                {
-                                                                    "__tuple__": true, 
-                                                                    "items": [
-                                                                        "POINT", 
-                                                                        "当前单位目标点", 
-                                                                        "local"
-                                                                    ]
-                                                                }
-                                                            ], 
-                                                            "sub_type": 19
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100211, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100000, 
-                                                                    "args_list": [
-                                                                        10.0
-                                                                    ], 
-                                                                    "sub_type": 1
-                                                                }
-                                                            ], 
-                                                            "sub_type": "CONST_CIRCULAR_SHAPE"
-                                                        }
-                                                    ], 
-                                                    "condition_type": "POINT_IN_SHAPE", 
-                                                    "element_id": 1299906630949910, 
-                                                    "enable": true
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100022, 
-                                            "args_list": [
-                                                {
-                                                    "action_type": "CALL_TRIGGER_FUNC", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100177, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100006, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "__tuple__": true, 
-                                                                            "items": [
-                                                                                "UNIT_ENTITY", 
-                                                                                "控制单位", 
-                                                                                "local"
-                                                                            ]
-                                                                        }
-                                                                    ], 
-                                                                    "sub_type": 11
-                                                                }
-                                                            ], 
-                                                            "op_arg": [], 
-                                                            "op_arg_enable": [], 
-                                                            "sub_type": "73cc76b4768511efaa10e9cb5d819de6"
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "call_rt_arg_idxes": [], 
-                                                    "element_id": 1299906630949852, 
-                                                    "enable": true
-                                                }, 
-                                                {
-                                                    "action_type": "CALL_TRIGGER_FUNC", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100177, 
-                                                            "args_list": [], 
-                                                            "op_arg": [], 
-                                                            "op_arg_enable": [], 
-                                                            "sub_type": "05d5e321768511ef8456e9cb5d819de6"
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "call_rt_arg_idxes": [], 
-                                                    "element_id": 1299906630949884, 
-                                                    "enable": true
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100022, 
-                                            "args_list": [], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1299906630949889, 
-                                    "enable": true, 
-                                    "fake_op": []
-                                }, 
-                                [
                                     1243847431, 
                                     "钥匙判断", 
                                     1299906630, 
@@ -2192,6 +2059,139 @@
                         {
                             "arg_type": 100022, 
                             "args_list": [
+                                [
+                                    1133325864, 
+                                    "胜利判断", 
+                                    1299906630, 
+                                    "action_type"
+                                ], 
+                                {
+                                    "action_type": "IF_THEN_ELSE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100021, 
+                                            "args_list": [
+                                                {
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "UNIT_ENTITY", 
+                                                                                "控制单位", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }
+                                                            ], 
+                                                            "sub_type": "UNIT_ENTITY_POINT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "POINT", 
+                                                                        "当前单位目标点", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 19
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100211, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        10.0
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "CONST_CIRCULAR_SHAPE"
+                                                        }
+                                                    ], 
+                                                    "condition_type": "POINT_IN_SHAPE", 
+                                                    "element_id": 1299906630949910, 
+                                                    "enable": true
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100022, 
+                                            "args_list": [
+                                                {
+                                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100177, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "UNIT_ENTITY", 
+                                                                                "控制单位", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }
+                                                            ], 
+                                                            "op_arg": [], 
+                                                            "op_arg_enable": [], 
+                                                            "sub_type": "73cc76b4768511efaa10e9cb5d819de6"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "call_rt_arg_idxes": [], 
+                                                    "element_id": 1299906630949852, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100177, 
+                                                            "args_list": [], 
+                                                            "op_arg": [], 
+                                                            "op_arg_enable": [], 
+                                                            "sub_type": "05d5e321768511ef8456e9cb5d819de6"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "call_rt_arg_idxes": [], 
+                                                    "element_id": 1299906630949884, 
+                                                    "enable": true
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100022, 
+                                            "args_list": [], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1299906630949889, 
+                                    "enable": true, 
+                                    "fake_op": []
+                                }, 
                                 {
                                     "action_type": "TRANS_UNIT", 
                                     "args_list": [

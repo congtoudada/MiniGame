@@ -246,6 +246,90 @@
             "element_id": 1875570739271275, 
             "enable": true
         }, 
+        {
+            "action_type": "STOP_SOUND", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [], 
+                    "sub_type": "GET_CLIENT_ROLE"
+                }, 
+                {
+                    "arg_type": 100214, 
+                    "args_list": [
+                        [
+                            "SOUND_ENTITY", 
+                            "背景音乐_界面"
+                        ]
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 823853121988176, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100214, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "SOUND_ENTITY", 
+                                "背景音乐_游戏"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100214, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "GET_CLIENT_ROLE"
+                        }, 
+                        {
+                            "arg_type": 100084, 
+                            "args_list": [
+                                201330383
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg": [
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false
+                    ], 
+                    "sub_type": "PLAY_SOUND_FOR_PLAYER"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 823853121988164, 
+            "enable": true
+        }, 
         [
             1550760525, 
             "加载地图数据", 
@@ -936,7 +1020,7 @@
                                                 {
                                                     "arg_type": 100002, 
                                                     "args_list": [
-                                                        600
+                                                        300
                                                     ], 
                                                     "sub_type": 1
                                                 }
@@ -1021,7 +1105,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        23
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1043,7 +1127,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        24
+                                                        3
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1065,7 +1149,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        25
+                                                        4
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1087,7 +1171,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        26
+                                                        2
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1148,6 +1232,60 @@
                                             "enable": true
                                         }, 
                                         {
+                                            "action_type": "SET_POST_PROCESSING", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 1001557, 
+                                                    "args_list": [
+                                                        0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 823853121987999, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ]
+                                        }, 
+                                        {
+                                            "action_type": "SET_ROLE_COLOR_GRANING", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100237, 
+                                                    "args_list": [
+                                                        2
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 823853121988053, 
+                                            "enable": true
+                                        }, 
+                                        {
                                             "action_type": "BREAK_LOOP", 
                                             "args_list": [], 
                                             "bp": false, 
@@ -1194,7 +1332,7 @@
                                                 {
                                                     "arg_type": 100002, 
                                                     "args_list": [
-                                                        600
+                                                        300
                                                     ], 
                                                     "sub_type": 1
                                                 }
@@ -1279,7 +1417,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        23
+                                                        3
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1301,7 +1439,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        24
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1323,7 +1461,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        25
+                                                        2
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1345,7 +1483,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        26
+                                                        4
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1406,6 +1544,60 @@
                                             "enable": true
                                         }, 
                                         {
+                                            "action_type": "SET_POST_PROCESSING", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 1001557, 
+                                                    "args_list": [
+                                                        1
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 823853121987995, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ]
+                                        }, 
+                                        {
+                                            "action_type": "SET_ROLE_COLOR_GRANING", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100237, 
+                                                    "args_list": [
+                                                        3
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 823853121988075, 
+                                            "enable": true
+                                        }, 
+                                        {
                                             "action_type": "BREAK_LOOP", 
                                             "args_list": [], 
                                             "bp": false, 
@@ -1452,7 +1644,7 @@
                                                 {
                                                     "arg_type": 100002, 
                                                     "args_list": [
-                                                        60
+                                                        20
                                                     ], 
                                                     "sub_type": 1
                                                 }
@@ -1537,7 +1729,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        23
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1559,7 +1751,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        24
+                                                        3
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1581,7 +1773,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        25
+                                                        4
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1603,7 +1795,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        26
+                                                        2
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1664,6 +1856,60 @@
                                             "enable": true
                                         }, 
                                         {
+                                            "action_type": "SET_POST_PROCESSING", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 1001557, 
+                                                    "args_list": [
+                                                        4
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 823853121988013, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ]
+                                        }, 
+                                        {
+                                            "action_type": "SET_ROLE_COLOR_GRANING", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100237, 
+                                                    "args_list": [
+                                                        8
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 823853121988094, 
+                                            "enable": true
+                                        }, 
+                                        {
                                             "action_type": "BREAK_LOOP", 
                                             "args_list": [], 
                                             "bp": false, 
@@ -1710,7 +1956,7 @@
                                                 {
                                                     "arg_type": 100002, 
                                                     "args_list": [
-                                                        60
+                                                        30
                                                     ], 
                                                     "sub_type": 1
                                                 }
@@ -1795,7 +2041,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        23
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1817,7 +2063,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        24
+                                                        3
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1839,7 +2085,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        25
+                                                        4
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1861,7 +2107,7 @@
                                                 {
                                                     "arg_type": 100195, 
                                                     "args_list": [
-                                                        26
+                                                        2
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -1919,6 +2165,60 @@
                                             ], 
                                             "bp": false, 
                                             "element_id": 823853121987917, 
+                                            "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "SET_POST_PROCESSING", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 1001557, 
+                                                    "args_list": [
+                                                        0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 823853121988023, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ]
+                                        }, 
+                                        {
+                                            "action_type": "SET_ROLE_COLOR_GRANING", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100237, 
+                                                    "args_list": [
+                                                        10
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 823853121988106, 
                                             "enable": true
                                         }, 
                                         {
@@ -2370,6 +2670,100 @@
                                             "bp": false, 
                                             "element_id": 823853121987509, 
                                             "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "IF_THEN_ELSE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100021, 
+                                                    "args_list": [
+                                                        {
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "关卡倒计时"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100015, 
+                                                                    "args_list": [
+                                                                        "<="
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        10
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "condition_type": "FLOAT_COMPARE", 
+                                                            "element_id": 823853121988133, 
+                                                            "enable": true
+                                                        }
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100022, 
+                                                    "args_list": [
+                                                        {
+                                                            "action_type": "SET_POST_PROCESSING", 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100025, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 1001557, 
+                                                                    "args_list": [
+                                                                        2
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "bp": false, 
+                                                            "element_id": 823853121988144, 
+                                                            "enable": true, 
+                                                            "op_arg": [
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100022, 
+                                                    "args_list": [], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 823853121988117, 
+                                            "enable": true, 
+                                            "fake_op": []
                                         }, 
                                         {
                                             "action_type": "PICK_PLAYER_DO_ACTION", 

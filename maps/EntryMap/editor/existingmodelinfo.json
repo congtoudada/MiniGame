@@ -8,66 +8,6 @@
   ]
  }, 
  {
-  "__tuple__": true, 
-  "items": [
-   10000, 
-   "\u51fa\u751f\u70b91", 
-   1024
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   10003, 
-   "\u51fa\u751f\u70b92", 
-   1024
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   10015, 
-   "\u6709\u6548\u533a\u57df", 
-   2048
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   10020, 
-   "\u901a\u5173\u533a\u57df", 
-   2048
-  ]
- }, 
- {
-  "name": "Level1", 
-  "key": "wHamS3aDEe+tOunLXYGd5p", 
-  "group": [], 
-  "btn_visible": true, 
-  "btn_lock": true
- }, 
- {
-  "name": "Level2", 
-  "key": "HbZc-3aEEe+lW+nLXYGd5t", 
-  "group": [], 
-  "btn_visible": true, 
-  "btn_lock": true
- }, 
- {
-  "name": "Level3", 
-  "key": "Izda9naEEe+SGenLXYGd5n", 
-  "group": [], 
-  "btn_visible": true, 
-  "btn_lock": true
- }, 
- {
-  "name": "Level4", 
-  "key": "Jzs2LnaEEe+S6+nLXYGd5u", 
-  "group": [], 
-  "btn_visible": true, 
-  "btn_lock": true
- }, 
- {
   "name": "\u573a\u5730", 
   "key": "LWZU7XWcEe+0c6OdgcpY0j", 
   "group": [
@@ -564,58 +504,218 @@
   ]
  }, 
  {
+  "name": "\u4ea4\u4e92", 
+  "key": "lcXPPHb1Ee+dBwE4sNspV1", 
+  "group": [
+   {
+    "__tuple__": true, 
+    "items": [
+     10000, 
+     "\u51fa\u751f\u70b91", 
+     1024
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10003, 
+     "\u51fa\u751f\u70b92", 
+     1024
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10015, 
+     "\u6709\u6548\u533a\u57df", 
+     2048
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10020, 
+     "\u901a\u5173\u533a\u57df", 
+     2048
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10027, 
+     "\u94a5\u5319\u533a\u57df1", 
+     2048
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10028, 
+     "\u94a5\u5319\u533a\u57df2", 
+     2048
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     21, 
+     "\u94a5\u53191", 
+     16384
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     22, 
+     "\u94a5\u53192", 
+     16384
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10029, 
+     "\u77e9\u5f62\u533a\u57df", 
+     2048
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     1, 
+     "\u89e3\u9501\u5b9d\u7bb11", 
+     16384
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     3, 
+     "\u89e3\u9501\u5b9d\u7bb12", 
+     16384
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     4, 
+     "\u5b9d\u7bb11", 
+     16384
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     2, 
+     "\u5b9d\u7bb12", 
+     16384
+    ]
+   }
+  ], 
+  "btn_visible": false, 
+  "btn_lock": false
+ }, 
+ {
+  "name": "\u73af\u5883", 
+  "key": "kvs9VXb1Ee+hIAE4sNspVz", 
+  "group": [
+   {
+    "__tuple__": true, 
+    "items": [
+     10080, 
+     "\u5c40\u90e8\u96fe", 
+     1048576
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10081, 
+     "\u5c40\u90e8\u96fe", 
+     1048576
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10082, 
+     "\u5c40\u90e8\u96fe", 
+     1048576
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10083, 
+     "\u5c40\u90e8\u96fe", 
+     1048576
+    ]
+   }
+  ], 
+  "btn_visible": false, 
+  "btn_lock": false
+ }, 
+ {
   "__tuple__": true, 
   "items": [
-   10027, 
-   "\u94a5\u5319\u533a\u57df1", 
-   2048
+   1, 
+   "\u706b", 
+   64
   ]
  }, 
  {
   "__tuple__": true, 
   "items": [
-   10028, 
-   "\u94a5\u5319\u533a\u57df2", 
-   2048
+   2, 
+   "\u706b", 
+   64
   ]
  }, 
  {
   "__tuple__": true, 
   "items": [
-   21, 
-   "\u94a5\u53191", 
+   3, 
+   "\u706b", 
+   64
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   4, 
+   "\u706b", 
+   64
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   5, 
+   "\u706b", 
+   64
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   6, 
+   "\u706b", 
+   64
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   5, 
+   "\u623f\u5b50", 
    16384
   ]
  }, 
  {
   "__tuple__": true, 
   "items": [
-   22, 
-   "\u94a5\u53192", 
-   16384
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   10029, 
-   "\u77e9\u5f62\u533a\u57df", 
-   2048
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   23, 
-   "\u89e3\u9501\u5b9d\u7bb1\u7ec41", 
-   16384
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   24, 
-   "\u89e3\u9501\u5b9d\u7bb1\u7ec42", 
+   7, 
+   "\u623f\u5b502", 
    16384
   ]
  }

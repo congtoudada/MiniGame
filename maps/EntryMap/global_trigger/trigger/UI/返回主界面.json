@@ -29,6 +29,57 @@
             "enable": true
         }, 
         {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100214, 
+                    "args_list": [
+                        [
+                            "SOUND_ENTITY", 
+                            "背景音乐_界面"
+                        ]
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100214, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "GET_CLIENT_ROLE"
+                        }, 
+                        {
+                            "arg_type": 100084, 
+                            "args_list": [
+                                201347723
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg": [
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false
+                    ], 
+                    "sub_type": "PLAY_SOUND_FOR_PLAYER"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1970020392000083, 
+            "enable": true
+        }, 
+        {
             "action_type": "PICK_PLAYER_DO_ACTION", 
             "args_list": [
                 {

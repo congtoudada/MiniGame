@@ -777,6 +777,20 @@
                                 }
                             ], 
                             "sub_type": 19
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "玩家", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
                         }
                     ], 
                     "op_arg": [], 

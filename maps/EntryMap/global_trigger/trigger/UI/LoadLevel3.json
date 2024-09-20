@@ -60,7 +60,7 @@
                 {
                     "arg_type": 100067, 
                     "args_list": [
-                        "shop_close"
+                        "button_level3_click"
                     ], 
                     "sub_type": 1
                 }

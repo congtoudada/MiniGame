@@ -286,7 +286,264 @@
     "65536": {}, 
     "131072": {}, 
     "262144": {}, 
-    "1048576": {}, 
+    "1048576": {
+        "10080": {
+            "fog_color": {
+                "__tuple__": true, 
+                "items": [
+                    1.0, 
+                    1.0, 
+                    1.0
+                ]
+            }, 
+            "fog_density": 0.6, 
+            "fog_height": 5.0, 
+            "fog_speed": 1.0, 
+            "id": 10080, 
+            "name": "\u5c40\u90e8\u96fe", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        63, 
+                        1044732830
+                    ], 
+                    [
+                        -1, 
+                        2147483648
+                    ], 
+                    [
+                        13, 
+                        1937612800
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "scale": {
+                "__tuple__": true, 
+                "items": [
+                    34.37699260492809, 
+                    27.706992605002597, 
+                    82.9666181737557
+                ]
+            }, 
+            "type": 1048576, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10081": {
+            "fog_color": {
+                "__tuple__": true, 
+                "items": [
+                    1.0, 
+                    1.0, 
+                    1.0
+                ]
+            }, 
+            "fog_density": 0.6, 
+            "fog_height": 5.0, 
+            "fog_speed": 1.0, 
+            "id": 10081, 
+            "name": "\u5c40\u90e8\u96fe", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -60, 
+                        3569614848
+                    ], 
+                    [
+                        -1, 
+                        2147483648
+                    ], 
+                    [
+                        3, 
+                        2872819712
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "scale": {
+                "__tuple__": true, 
+                "items": [
+                    34.37699260492809, 
+                    27.706992605002597, 
+                    82.9666181737557
+                ]
+            }, 
+            "type": 1048576, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10082": {
+            "fog_color": {
+                "__tuple__": true, 
+                "items": [
+                    1.0, 
+                    1.0, 
+                    1.0
+                ]
+            }, 
+            "fog_density": 0.6, 
+            "fog_height": 5.0, 
+            "fog_speed": 1.0, 
+            "id": 10082, 
+            "name": "\u5c40\u90e8\u96fe", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -3, 
+                        3694362624
+                    ], 
+                    [
+                        -1, 
+                        2147483648
+                    ], 
+                    [
+                        62, 
+                        766513590
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "scale": {
+                "__tuple__": true, 
+                "items": [
+                    34.37699260492809, 
+                    27.706992605002597, 
+                    82.9666181737557
+                ]
+            }, 
+            "type": 1048576, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    -2, 
+                    1544935018
+                ]
+            }
+        }, 
+        "10083": {
+            "fog_color": {
+                "__tuple__": true, 
+                "items": [
+                    1.0, 
+                    1.0, 
+                    1.0
+                ]
+            }, 
+            "fog_density": 0.6, 
+            "fog_height": 5.0, 
+            "fog_speed": 1.0, 
+            "id": 10083, 
+            "name": "\u5c40\u90e8\u96fe", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        1, 
+                        2963812352
+                    ], 
+                    [
+                        -1, 
+                        2147483648
+                    ], 
+                    [
+                        -63, 
+                        2726526976
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "scale": {
+                "__tuple__": true, 
+                "items": [
+                    34.37699260492809, 
+                    27.706992605002597, 
+                    82.9666181737557
+                ]
+            }, 
+            "type": 1048576, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    -2, 
+                    2160736574
+                ]
+            }
+        }
+    }, 
     "2097152": {
         "10025": {
             "id": 10025, 

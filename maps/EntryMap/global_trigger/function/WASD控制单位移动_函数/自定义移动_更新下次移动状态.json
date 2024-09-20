@@ -1263,6 +1263,32 @@
                                             "condition_type": "FLOAT_COMPARE", 
                                             "element_id": 120311872002027, 
                                             "enable": true
+                                        }, 
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100035, 
+                                                    "args_list": [
+                                                        "=="
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        1
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "condition_type": "PLAYER_COMPARE", 
+                                            "element_id": 120311872950026, 
+                                            "enable": true
                                         }
                                     ], 
                                     "sub_type": 1
@@ -2810,6 +2836,100 @@
                                 }, 
                                 {
                                     "arg_type": 100022, 
+                                    "args_list": [], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 120311872002012, 
+                            "enable": true, 
+                            "fake_op": []
+                        }, 
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "UNIT_ENTITY", 
+                                                                        "单位", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 11
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "索引"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_INTEGER_KV"
+                                                }, 
+                                                {
+                                                    "arg_type": 100015, 
+                                                    "args_list": [
+                                                        "=="
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        2
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "condition_type": "FLOAT_COMPARE", 
+                                            "element_id": 120311872950046, 
+                                            "enable": true
+                                        }, 
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_CLIENT_ROLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100035, 
+                                                    "args_list": [
+                                                        "=="
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        2
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "condition_type": "PLAYER_COMPARE", 
+                                            "element_id": 120311872950059, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
                                     "args_list": [
                                         {
                                             "action_type": "LIST_LOOP", 
@@ -3060,7 +3180,7 @@
                                             "enable": true
                                         }, 
                                         [
-                                            1207568303, 
+                                            1825072469, 
                                             "W方向投射物", 
                                             120311872, 
                                             "action_type"
@@ -3332,7 +3452,7 @@
                                             "fake_op": []
                                         }, 
                                         [
-                                            1214451286, 
+                                            1172054659, 
                                             "S方向投射物", 
                                             120311872, 
                                             "action_type"
@@ -3604,7 +3724,7 @@
                                             "fake_op": []
                                         }, 
                                         [
-                                            2116089674, 
+                                            1663883279, 
                                             "D方向投射物", 
                                             120311872, 
                                             "action_type"
@@ -3876,7 +3996,7 @@
                                             "fake_op": []
                                         }, 
                                         [
-                                            1375897450, 
+                                            1840905795, 
                                             "A方向投射物", 
                                             120311872, 
                                             "action_type"
@@ -4148,7 +4268,7 @@
                                             "fake_op": []
                                         }, 
                                         [
-                                            2126168402, 
+                                            1098248963, 
                                             "目标点投射物", 
                                             120311872, 
                                             "action_type"
@@ -4372,14 +4492,17 @@
                                         }
                                     ], 
                                     "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [], 
+                                    "sub_type": 1
                                 }
                             ], 
                             "bp": false, 
-                            "element_id": 120311872002012, 
+                            "element_id": 120311872950037, 
                             "enable": true, 
-                            "fake_op": [
-                                2
-                            ]
+                            "fake_op": []
                         }
                     ], 
                     "sub_type": 1
@@ -4402,7 +4525,7 @@
     "event": [], 
     "func_category": "t_function", 
     "func_comment": "", 
-    "func_des": "函数描述 x:{x} y:{y} 单位:{单位}{目标点}", 
+    "func_des": "函数描述 x:{x} y:{y} 单位:{单位}{目标点}{玩家}", 
     "func_id": "c0378bfe763c11efb955add6b0a9691e", 
     "func_name": "自定义移动_更新下次移动状态", 
     "func_param_list": [
@@ -4433,6 +4556,13 @@
                 "目标点", 
                 true
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "玩家", 
+                true
+            ]
         }
     ], 
     "group_id": "16w1mnYpEe+VR63WsKlpHk", 
@@ -4458,6 +4588,9 @@
                 "y": 0
             }, 
             "NEW_TIMER": {}, 
+            "PLAYER": {
+                "玩家": 0
+            }, 
             "POINT": {
                 "TempPoint": {
                     "__tuple__": true, 
@@ -4501,6 +4634,7 @@
             "x": 0, 
             "y": 0, 
             "单位": 0, 
+            "玩家": 0, 
             "目标点": 0
         }, 
         [
@@ -4517,7 +4651,8 @@
             "mapIndex", 
             "目标点", 
             "TempPoint", 
-            "TempFX"
+            "TempFX", 
+            "玩家"
         ]
     ]
 }

@@ -5,7 +5,7 @@
         "bloom_strength": 0.8
     }, 
     "color_grading": {
-        "color_grading_type": 1, 
+        "color_grading_type": 10, 
         "total_control": 1.0
     }, 
     "env_time_of_day": {

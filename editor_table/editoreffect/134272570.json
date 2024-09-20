@@ -1,0 +1,42 @@
+{
+    "deps_info": {
+        "deps": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    "editor_icon", 
+                    903069
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    "editor_icon", 
+                    903272
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    "editor_icon", 
+                    903356
+                ]
+            }
+        ], 
+        "sound_id_list": []
+    }, 
+    "describe": 134272570, 
+    "key": 134272570, 
+    "md5": "9abbe1d189e6535b4e746fcae4f2181a", 
+    "model_id": 134247655, 
+    "name": "\u706b\u7130", 
+    "preview_icon": "", 
+    "res_identify": "", 
+    "res_type": "kkres", 
+    "scale": 1.0, 
+    "source_effect": [
+        104299
+    ], 
+    "uid": "134272570", 
+    "version": 1
+}

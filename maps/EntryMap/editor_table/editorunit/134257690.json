@@ -223,7 +223,7 @@
     "model": 207667, 
     "model_height": 0.0, 
     "model_opacity": 1, 
-    "move_channel": 0, 
+    "move_channel": 1, 
     "move_limitation": 1, 
     "move_type": 40, 
     "mp_color": "Blue", 
@@ -235,7 +235,7 @@
     "name": -1106915264, 
     "need_preview_billboard": true, 
     "ori_bits": 0, 
-    "ori_speed": 5.0, 
+    "ori_speed": 8.0, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": {
         "__tuple__": true, 

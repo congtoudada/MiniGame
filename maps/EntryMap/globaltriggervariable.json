@@ -36,6 +36,10 @@
             "CurrentFX1": 0, 
             "CurrentFX2": 0
         }, 
+        "SOUND_ENTITY": {
+            "\u80cc\u666f\u97f3\u4e50_\u6e38\u620f": 0, 
+            "\u80cc\u666f\u97f3\u4e50_\u754c\u9762": 0
+        }, 
         "STRING": {
             "CurrentMap": ""
         }, 
@@ -190,6 +194,20 @@
                 "\u5f53\u524d\u5173\u5361", 
                 "\u5f53\u524d\u5173\u5361"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u80cc\u666f\u97f3\u4e50_\u754c\u9762", 
+                "\u80cc\u666f\u97f3\u4e50_\u754c\u9762"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u80cc\u666f\u97f3\u4e50_\u6e38\u620f", 
+                "\u80cc\u666f\u97f3\u4e50_\u6e38\u620f"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -212,6 +230,8 @@
         "\u5f53\u524d\u5173\u5361": 0, 
         "\u6e38\u620f\u72b6\u6001": 0, 
         "\u73a9\u5bb61\u5355\u4f4d": 0, 
-        "\u73a9\u5bb62\u5355\u4f4d": 0
+        "\u73a9\u5bb62\u5355\u4f4d": 0, 
+        "\u80cc\u666f\u97f3\u4e50_\u6e38\u620f": 0, 
+        "\u80cc\u666f\u97f3\u4e50_\u754c\u9762": 0
     }
 }
